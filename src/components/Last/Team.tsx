@@ -13,7 +13,7 @@ const Team = () => {
         Founding team member
       </div>
       <div className="justify-center self-stretch bg-white bg-opacity-10 w-full mt-4  rounded-2xl max-md:max-w-full">
-        <div className="gap-0 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div className="gap-0 flex overflow-x-auto  max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img

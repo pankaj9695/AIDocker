@@ -1,6 +1,22 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+
+const cardVariants = {
+  hidden: { opacity: 0, x: "-100vw" },
+  visible: (custom: number) => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      delay: custom * 0.5, // delay each card by half a second
+    },
+  }),
+};
 
 const Chart = () => {
+  const ref = useRef(null);
+
+  const isInView = useInView(ref);
   return (
     <span className="justify-center items-stretch self-stretch flex flex-col">
       <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
@@ -41,9 +57,16 @@ const Chart = () => {
           </div>
         </span>
       </div>
+
       <div className="self-center w-full max-w-[1036px] mt-8 rounded-2xl max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+          <motion.div
+            variants={cardVariants}
+            initial="hidden"
+            animate="visible"
+            custom={0} // 0 delay for the first card
+            className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+          >
             <span className="items-stretch bg-[#181818] border border-[color:var(--Outline-1,rgba(255,255,255,0.04))] backdrop-blur-[18px] flex grow flex-col w-full p-6 rounded-3xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
                 Enterprice value ( Trillion, USD)
@@ -148,8 +171,14 @@ const Chart = () => {
                 </div>
               </div>
             </span>
-          </div>
-          <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+          </motion.div>
+          <motion.div
+            variants={cardVariants}
+            initial="hidden"
+            animate="visible"
+            custom={1} // 0.5s delay for the second card
+            className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+          >
             <span className="items-stretch bg-[#181818] border border-[color:var(--Outline-1,rgba(255,255,255,0.04))] backdrop-blur-[18px] flex grow flex-col w-full p-6 rounded-3xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
                 Project hardware spend driven by AI
@@ -278,7 +307,7 @@ const Chart = () => {
                 </div>
               </div>
             </span>
-          </div>
+          </motion.div>
         </div>
       </div>
     </span>

@@ -1,9 +1,17 @@
+"use client";
 import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+const sectionVariants = {
+  initial: { scale: 1.2, opacity: 0 },
+  animate: { scale: 1, opacity: 1, transition: { duration: 0.7 } },
+};
 
 const Revenue = () => {
   return (
-    <div className="flex max-w-[941px] flex-col items-stretch">
-      <div className="self-center flex items-start gap-0 px-5 max-md:max-w-full max-md:flex-wrap">
+    <div className="flex max-w-[941px] mx-auto justify-center flex-col items-stretch">
+      {/* <div className="self-center flex items-start gap-0 px-5 max-md:max-w-full max-md:flex-wrap">
         <span className="text-white text-opacity-90 text-base font-bold leading-5 whitespace-nowrap items-stretch shadow-lg backdrop-blur-[14.218916893005371px] bg-white bg-opacity-10 self-center grow justify-center my-auto pl-3.5 pr-7 py-4 rounded-3xl border-[1.422px] border-solid border-white border-opacity-0 max-md:pr-5">
           Ai Model Training
         </span>
@@ -184,7 +192,22 @@ const Revenue = () => {
         <span className="text-white text-opacity-90 text-base font-bold leading-5 whitespace-nowrap items-stretch shadow-lg backdrop-blur-[14.218916893005371px] bg-white bg-opacity-10 self-center grow justify-center my-auto pl-3.5 pr-7 py-4 rounded-3xl border-[1.422px] border-solid border-white border-opacity-0 max-md:pr-5">
           Model Training
         </span>
-      </div>
+      </div> */}
+      <motion.div
+        variants={sectionVariants}
+        initial="initial"
+        // animate="animate"
+        whileInView={"animate"}
+        className="w-full"
+      >
+        <Image
+          src={"/Group 1597877665ai-docker.png"}
+          height={"900"}
+          width={"900"}
+          alt="logo"
+          className="self-center"
+        />
+      </motion.div>
     </div>
   );
 };
