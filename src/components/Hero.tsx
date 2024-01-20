@@ -71,7 +71,7 @@ const Hero = () => {
             </motion.div>
           </div>
           <div className="flex flex-col mt-6 sm:mt-0 items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
-            <motion.img
+            {/* <motion.img
               variants={imageVariants}
               initial="initial"
               animate="animate"
@@ -79,7 +79,20 @@ const Hero = () => {
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a50fddde93b184b012f50a11add670a6c7037c9e8c2f0c9d7e7a85478d9de10d?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
               className="aspect-[1.52] object-contain object-center w-full overflow-hidden grow max-md:max-w-full"
               alt=""
-            />
+            /> */}
+            <motion.div
+              variants={imageVariants}
+              initial="initial"
+              animate="animate"
+              className="hero h-[50vh] sm:h-[70vh]"
+            >
+              <div className="hero-background">
+                <video autoPlay loop muted className="hero-video">
+                  <source src="/earth.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>
