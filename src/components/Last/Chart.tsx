@@ -16,7 +16,6 @@ const cardVariants = {
 const Chart = () => {
   const ref = useRef(null);
 
-  const isInView = useInView(ref);
   return (
     <span className="justify-center items-stretch self-stretch flex flex-col">
       <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
@@ -149,7 +148,7 @@ const Chart = () => {
                     Ai 2021-2030 Est.
                   </div>
                 </span>
-                <div className="items-stretch self-stretch flex gap-3 mt-6 px-0.5">
+                <div className="items-stretch self-stretch flex sm:flex-nowrap flex-wrap gap-3 mt-6 px-0.5">
                   <span className="justify-between items-center flex gap-1">
                     <div className="bg-red-400 flex w-2 shrink-0 h-2 flex-col my-auto rounded-2xl" />
                     <div className="text-white text-xs font-[450] leading-4 tracking-normal self-stretch grow whitespace-nowrap">
@@ -279,7 +278,7 @@ const Chart = () => {
                     2030
                   </div>
                 </span>
-                <div className="items-stretch self-stretch flex gap-3 mt-6 pr-20 max-md:pr-5">
+                <div className="items-stretch self-stretch flex-wrap sm:flex-nowrap flex gap-3 mt-6 pr-20 max-md:pr-5">
                   <span className="justify-between items-center flex gap-1">
                     <div className="bg-red-400 flex w-2 shrink-0 h-2 flex-col my-auto rounded-3xl" />
                     <div className="text-white text-xs font-[450] leading-4 tracking-normal self-stretch grow whitespace-nowrap">
