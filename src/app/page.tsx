@@ -4,7 +4,6 @@ import Problem from "@/components/Problem";
 import Last from "@/components/Last";
 // import StyledComponent from "@/components/StyledComponent";
 import Cursor from "@/components/Cursor";
-import { SvgComponent } from "@/components/tourSvg";
 
 export default function Home() {
   return (
@@ -14,6 +13,8 @@ export default function Home() {
       <Hero />
       <Problem />
       <Last />
+      {/* <OctopusSvg /> */}
+      {/* <SvgCenter /> */}
       {/* <SvgComponent /> */}
       {/* <StyledComponent /> */}
     </main>

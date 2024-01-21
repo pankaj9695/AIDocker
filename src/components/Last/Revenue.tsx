@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import OctopusSvg from "@/components/octopusSvg";
 
 const sectionVariants = {
   initial: { scale: 1.2, opacity: 0 },
@@ -25,18 +26,13 @@ const Revenue = () => {
         computational
       </div>
       <motion.div
-        variants={sectionVariants}
-        initial="initial"
-        animate="animate"
+        // variants={sectionVariants}
+        // initial="initial"
+        // animate="animate"
         // whileInView={"animate"}
         className="w-full mx-auto flex justify-center"
       >
-        <img
-          alt="logo"
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c5ca6c6e625029abae0a4312d65ff1f53d2dc085e599c3b54323ae9070c1e69?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-          className="aspect-[2.1] object-contain object-center w-full overflow-hidden max-w-[941px] mt-16 mb-3.5 max-md:max-w-full max-md:mt-10"
-        />
+        <OctopusSvg />
       </motion.div>
     </span>
   );
