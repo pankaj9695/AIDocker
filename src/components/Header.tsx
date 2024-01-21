@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import MobileHeader from "./Header/MobileHeader";
 
 const headerVariants = {
-  initial: { y: "-100%", opacity: 0 },
+  initial: { y: -500, opacity: 0 },
   animate: { y: 0, opacity: 1, transition: { duration: 1 } },
 };
 
@@ -59,12 +59,15 @@ const Header = () => {
               Team
             </a>
           </span>
-          <button
-            className="text-neutral-900 text-xs font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm bg-white self-center my-auto px-3 py-2.5 rounded-[30px]"
-            aria-label="Join Whitelist"
-          >
-            Join Whitelist
-          </button>
+          <div className="center-box me-10">
+            <div className="animated-border-box-glow"></div>
+            <button
+              className="animated-border-box text-neutral-900 text-xs font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
+              aria-label="Join Whitelist"
+            >
+              Join Whitelist
+            </button>
+          </div>
         </section>
       </motion.header>
       <MobileHeader />

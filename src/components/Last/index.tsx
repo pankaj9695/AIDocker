@@ -6,6 +6,7 @@ import Team from "./Team";
 import Partnership from "./Partnership";
 import Image from "next/image";
 import Faq from "./Faq";
+import Footer from "./Footer";
 
 const Last = () => {
   return (
@@ -17,6 +18,7 @@ const Last = () => {
         <Team />
         <Partnership />
         <Faq />
+        <Footer />
       </div>
     </div>
   );

@@ -29,7 +29,7 @@ body {
 }
 
 .hero-background {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -42,8 +42,26 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.hero-image {
+  /* z-index: 2; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 /* problem */
 .heading-gradient {
+  background: linear-gradient(to right, #4307c5, #ff738d, #ffa049);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-hover {
+  cursor: pointer;
+}
+.gradient-hover:hover {
   background: linear-gradient(to right, #4307c5, #ff738d, #ffa049);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -134,3 +152,82 @@ body {
   );
   z-index: 3;
 }
+/* glow btn */
+
+.animated-border-box,
+.animated-border-box-glow {
+  /* max-height: 200px;
+  max-width: 250px;
+  height: 100%;
+  width: 100%; */
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  /* Border Radius */
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+.animated-border-box-glow {
+  overflow: hidden;
+  /* Glow Blur */
+  filter: blur(30px);
+}
+
+.animated-border-box:before,
+.animated-border-box-glow:before {
+  content: "";
+  z-index: -2;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  position: absolute;
+  width: 99999px;
+  height: 99999px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /*border color, change middle color*/
+  background-image: conic-gradient(
+    rgba(0, 0, 0, 0),
+    #1976ed,
+    rgba(0, 0, 0, 0) 25%
+  );
+  /* change speed here */
+  animation: rotate 2s linear infinite;
+}
+
+.animated-border-box:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  /* border width */
+  left: 5px;
+  top: 5px;
+  /* double the px from the border width left */
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  /*bg color*/
+  background: white;
+
+  /*box border radius*/
+  border-radius: 30px;
+}
+
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
+
+/*// Border Animation END//*/
+
+.center-box {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: #1d1e22; */
+}
+/*// Border Animation END//*/

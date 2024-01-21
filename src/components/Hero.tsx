@@ -62,15 +62,24 @@ const Hero = () => {
                 computational for models training and our vision is to make a
                 marketplace{" "}
               </motion.p>
-              <a
+              {/* <a
                 href="#"
                 className="text-neutral-900 text-base font-medium leading-5 tracking-tight whitespace-nowrap justify-center items-stretch shadow-sm bg-white mt-5 px-4 py-3.5 rounded-[38.3px]"
               >
                 Join Whitelist
-              </a>
+              </a> */}
+              <div>
+                <div className="animated-border-box-glow z-10 "></div>
+                <button
+                  className="animated-border-box mt-5 px-4 py-3.5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
+                  aria-label="Join Whitelist"
+                >
+                  Join Whitelist
+                </button>
+              </div>
             </motion.div>
           </div>
-          <div className="flex flex-col mt-6 sm:mt-0 items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="flex flex-col mt-20 sm:mt-0 items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
             {/* <motion.img
               variants={imageVariants}
               initial="initial"
@@ -84,13 +93,18 @@ const Hero = () => {
               variants={imageVariants}
               initial="initial"
               animate="animate"
-              className="hero h-[50vh] sm:h-[70vh]"
+              className="hero"
             >
               <div className="hero-background">
                 <video autoPlay loop muted className="hero-video">
                   <source src="/earth.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
+                <img
+                  src="/earth-img.png"
+                  alt="Description of image"
+                  className="hero-image"
+                />
               </div>
             </motion.div>
           </div>

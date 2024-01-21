@@ -15,7 +15,7 @@ const Opportunity = () => {
       whileInView={"animate"}
       className="items-stretch self-stretch shadow-sm bg-white bg-opacity-10 flex flex-col px-16 sm:py-12 py-6 rounded-3xl max-md:px-5"
     >
-      <div className="text-xs font-medium text-center sm:text-start leading-4 tracking-widest uppercase bg-clip-text mt-3.5 max-md:max-w-full">
+      <div className="text-xs font-medium text-center sm:text-start leading-4 tracking-widest uppercase mt-3.5 max-md:max-w-full">
         <span className="heading-gradient ">Opportunity</span>
       </div>
       <div className="my-3.5 max-md:max-w-full">

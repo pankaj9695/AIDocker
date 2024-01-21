@@ -8,7 +8,7 @@ const MobileNav = ({
   setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
   return (
-    <header className="items-center backdrop-blur-[57px] overflow-y-hidden  bg-transparent flex max-w-full flex-col pb-12  absolute inset-0">
+    <header className="items-center overflow-y-hidden z-50 bg-[#232323]   flex max-w-full flex-col pb-12  absolute inset-0">
       <div className="justify-between items-stretch self-stretch flex w-full gap-5 p-5">
         <div className="items-stretch flex justify-between gap-1.5">
           <img
