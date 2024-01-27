@@ -38,7 +38,7 @@ const Earning = () => {
         Problem and solution
       </div> */}
       <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        AiDocker's Ecosystem: A Symphony of Features
+        Monetize Your AI Innovations and Contributions
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         In this beginning era of a.i which is future of technology,

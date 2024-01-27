@@ -19,7 +19,7 @@ const Revenue = () => {
         <span className="heading-gradient">Revenue Stream</span>
       </div> */}
       <div className="self-stretch heading-gradient text-white mb-16 text-center text-4xl font-bold leading-[56px] tracking-tighter mt-1.5 max-md:max-w-full">
-        Monetize Your AI Innovations and Contributions
+        AiDocker's Ecosystem: A Symphony of Features
       </div>
       {/* <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter mt-1 max-md:max-w-full">
         AiDocker isn't just a development platform; it's also an opportunity for
