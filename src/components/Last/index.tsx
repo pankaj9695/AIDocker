@@ -7,7 +7,6 @@ import Partnership from "./Partnership";
 import Image from "next/image";
 import Faq from "./Faq";
 import Footer from "./Footer";
-import Faq2 from "./Faq2";
 
 const Last = () => {
   return (
