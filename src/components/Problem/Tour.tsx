@@ -24,18 +24,18 @@ const Tour = () => {
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div className="flex flex-col items-stretch w-[63%] max-md:w-full max-md:ml-0">
           <span className="justify-center items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
-            <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+            {/* <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
               <span className="heading-gradient ">Opportunity</span>
-            </div>
+            </div> */}
             <div className="text-white text-4xl font-medium leading-[52px] tracking-tighter mt-3.5 max-md:max-w-full">
-              Computational power is the backbone GPUs and data plays lead role
-              in A.i
+              The Annotation Tool For Top-quality Training Data
             </div>
             <div className="text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter mt-6 max-md:max-w-full">
-              In this beginning era of a.i which is future of technology,
-              computational for models training and our vision is to make a
-              marketplace where users and developers can earn revenue for their
-              data or putting their idle GPUs at work .{" "}
+              At AiDocker, our approach to AI model development is meticulously
+              crafted. Following the research and development of Large Language
+              Models (LLMs) and their training, we embark on a critical phase:
+              data profiling and annotation. This process is pivotal in
+              providing data tailored to specific developer needs.
             </div>
           </span>
         </div>

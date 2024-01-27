@@ -1,4 +1,38 @@
 import React from "react";
+import SingleFaq from "./SingleFaq";
+
+const faqData = [
+  {
+    id: "1",
+    question: "What is AiDocker?",
+    answer:
+      "AiDocker is a platform dedicated to enabling the development of decentralized AI applications, providing resources for creating, training, and deploying AI models, and offering access to a network of GPUs for computational power.",
+  },
+  {
+    id: "2",
+    question: "How does the DePIN network function?",
+    answer:
+      "DePIN, our Decentralized Physical Infrastructure Network, connects users to a network of GPUs, allowing for scalable computing power necessary for AI model development and deployment.",
+  },
+  {
+    id: "3",
+    question: "Can I contribute to AiDocker's dataset library?",
+    answer:
+      "Yes, AiDocker encourages contributions to its dataset library. Users can share their unique datasets, enhancing the diversity and richness of resources available for AI development.",
+  },
+  {
+    id: "4",
+    question: "What are the revenue opportunities on AiDocker?",
+    answer:
+      "Users can earn revenue through various means, including sharing AI models, providing GPU resources in the DePIN network, and participating in our dataset and model marketplaces.",
+  },
+  {
+    id: "5",
+    question: "How can I get started with using AiDocker?",
+    answer:
+      "To get started, sign up on our platform. You'll gain access to our resources, including datasets and GPU power, and can begin developing and deploying your AI models.",
+  },
+];
 
 const Faq = () => {
   return (
@@ -9,70 +43,10 @@ const Faq = () => {
       <div className="text-white text-center text-4xl font-bold leading-[56px] tracking-tighter mt-1.5 max-md:max-w-full">
         Frequently Asked Questions
       </div>
-      <div className="justify-center items-stretch border backdrop-blur-[14px] bg-white bg-opacity-10 self-center flex w-[653px] max-w-full flex-col mt-14 p-5 rounded-2xl border-solid border-white border-opacity-10 max-md:mt-10">
-        <span className="items-center flex justify-between gap-2.5 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d524812ddd256fd13bfdadc18cf44f117716ea3e07b993db8cf7f27eda13b00?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
-            Main title frequesntly asked question
-          </div>
-        </span>
-      </div>
-      <div className="justify-center items-stretch border backdrop-blur-[14px] bg-white bg-opacity-10 self-center flex w-[653px] max-w-full flex-col mt-2.5 p-5 rounded-2xl border-solid border-white border-opacity-10">
-        <span className="items-center flex justify-between gap-2.5 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/84d693616aa316041b936b1a439799b96dc1c199aee6c3ba1e47d34745a91ee9?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
-            Main title frequesntly asked question
-          </div>
-        </span>
-        <span className="text-white text-sm font-medium leading-5 items-stretch justify-center mt-2.5 pl-9 max-md:max-w-full max-md:pl-5">
-          Trade seamlessly, manage effortlessly, track in real-time, explore
-          NFTs, and transfer seamlessl your crypto journey simplified.
-        </span>
-      </div>
-      <div className="justify-center items-stretch border backdrop-blur-[14px] bg-white bg-opacity-10 self-center flex w-[653px] max-w-full flex-col mt-2.5 p-5 rounded-2xl border-solid border-white border-opacity-10">
-        <span className="items-center flex justify-between gap-2.5 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d524812ddd256fd13bfdadc18cf44f117716ea3e07b993db8cf7f27eda13b00?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
-            Main title frequesntly asked question
-          </div>
-        </span>
-      </div>
-      <div className="justify-center items-stretch border backdrop-blur-[14px] bg-white bg-opacity-10 self-center flex w-[653px] max-w-full flex-col mt-2.5 p-5 rounded-2xl border-solid border-white border-opacity-10">
-        <span className="items-center flex justify-between gap-2.5 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d524812ddd256fd13bfdadc18cf44f117716ea3e07b993db8cf7f27eda13b00?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
-            Main title frequesntly asked question
-          </div>
-        </span>
-      </div>
-      <div className="justify-center items-stretch border backdrop-blur-[14px] bg-white bg-opacity-10 self-center flex w-[653px] max-w-full flex-col mt-2.5 p-5 rounded-2xl border-solid border-white border-opacity-10">
-        <span className="items-center flex justify-between gap-2.5 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d524812ddd256fd13bfdadc18cf44f117716ea3e07b993db8cf7f27eda13b00?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-          />
-          <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
-            Main title frequesntly asked question
-          </div>
-        </span>
-      </div>
+
+      {faqData.map((faq) => (
+        <SingleFaq key={faq.id} {...faq} />
+      ))}
     </div>
   );
 };

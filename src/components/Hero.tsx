@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import EarthSvg from "@/components/EarthSvg";
 
 const textVariants = {
   initial: {
@@ -43,14 +44,14 @@ const Hero = () => {
             >
               <motion.h1
                 variants={textVariants}
-                className="text-white text-opacity-90 text-7xl font-bold leading-[81px] tracking-tighter bg-clip-text self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-10"
+                className="text-white text-opacity-90 text-6xl font-bold leading-[81px] tracking-tighter bg-clip-text self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-10"
               >
-                <span className="font-medium">Open source for </span>
-                <span className="font-medium text-gradient  text-6xl leading-[72.4020767211914px]">
-                  {" "}
-                  decentralized{" "}
-                </span>
-                <motion.span variants={textVariants} className="font-medium">
+                <span className="font-medium">Empowering Enterprises </span>
+                <span className="font-medium ">to Build decentralized </span>
+                <motion.span
+                  variants={textVariants}
+                  className="font-medium text-gradient leading-[72.4020767211914px]"
+                >
                   AImodels.
                 </motion.span>
               </motion.h1>
@@ -58,9 +59,9 @@ const Hero = () => {
                 variants={textVariants}
                 className="self-stretch text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter mt-5 max-md:max-w-full"
               >
-                In this beginning era of a.i which is future of technology,
-                computational for models training and our vision is to make a
-                marketplace{" "}
+                From data-driven enthusiasts to seasoned developers, AiDocker is
+                the go-to destination for creating, training, and deploying AI
+                models with ease and efficiency.
               </motion.p>
               {/* <a
                 href="#"
@@ -105,6 +106,7 @@ const Hero = () => {
                   alt="Description of image"
                   className="hero-image"
                 />
+                {/* <EarthSvg /> */}
               </div>
             </motion.div>
           </div>

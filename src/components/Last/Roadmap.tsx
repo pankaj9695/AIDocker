@@ -1,5 +1,121 @@
 import React from "react";
 
+const roadMapDataQ423 = [
+  {
+    title: "Research and Case Study",
+    description:
+      "Conducting in-depth research and analysis to inform the development strategy and validate the project concept.",
+  },
+  {
+    title: "Conceptualization",
+    description:
+      "Refining the project idea, establishing clear goals, and outlining the scope of the AiDocker platform.",
+  },
+  {
+    title: "Initial Development",
+    description:
+      "Starting the primary development phase, focusing on building the core features and infrastructure of AiDocker.",
+  },
+  {
+    title: "Project Funded by Co-Founders",
+    description:
+      "Securing initial funding from the co-founders to kickstart the project and support early-stage development.",
+  },
+  {
+    title: "Minimum Viable Product (MVP)",
+    description:
+      "Developing and finalizing the MVP to demonstrate the basic functionality and potential of AiDocker.",
+  },
+  {
+    title: "Internal Testing",
+    description:
+      "Conducting thorough internal testing of the MVP to ensure reliability, efficiency, and readiness for the next stages of development.",
+  },
+];
+
+const roadMapDataQ124P1 = [
+  {
+    title: "Social Media Engagement",
+    description:
+      "Boosting online presence and community engagement through targeted social media strategies.",
+  },
+  {
+    title: "Workshop for Community Growth",
+    description:
+      "Organizing educational and interactive workshops to grow and engage the AiDocker community.",
+  },
+  {
+    title: "Web3 Partnerships and Integrations",
+    description:
+      "Establishing key partnerships and integrations with Web3 ecosystems to enhance platform capabilities.",
+  },
+  {
+    title: "Pre-Seed Round",
+    description:
+      "Securing initial funding to support early-stage development and operations.",
+  },
+  {
+    title: "Advisors Onboarding",
+    description:
+      "Bringing in expert advisors to guide the strategic direction of AiDocker.",
+  },
+];
+
+const roadMapDataQ124P2 = [
+  {
+    title: "Private Round",
+    description:
+      "Raising funds through private investment rounds to further support development.",
+  },
+  {
+    title: "Beta Testing (GPU Marketplace)",
+    description:
+      "Conducting beta tests of the GPU marketplace to refine features and user experience.",
+  },
+  {
+    title: "Initial DEX Offering (I.D.O)",
+    description:
+      "Launching the public sale of tokens to accelerate project funding.",
+  },
+  {
+    title: "Early Partners Onboarding",
+    description:
+      "Collaborating with early partners to broaden the network and gain insights.",
+  },
+  {
+    title: "CEX/DEX Listing",
+    description:
+      "Listing on Centralized and Decentralized Exchanges for enhanced liquidity and accessibility.",
+  },
+  {
+    title: "Staking Pools Opening",
+    description:
+      "Introducing staking pools to incentivize and reward community participation.",
+  },
+];
+
+const roadMapDataQ124P3 = [
+  {
+    title: "Marketing Campaigns",
+    description:
+      "Implementing comprehensive marketing campaigns to increase platform visibility and user adoption.",
+  },
+  {
+    title: "Dataset Marketplace Launch",
+    description:
+      "Rolling out a marketplace for buying, selling, or exchanging datasets.",
+  },
+  {
+    title: "Dataset Monitoring Telegram Bot",
+    description:
+      "Developing a Telegram bot for real-time dataset monitoring and updates.",
+  },
+  {
+    title: "Expanding Blockchain Integrations",
+    description:
+      "Broadening the scope of blockchain integrations to enhance platform functionality and user experience.",
+  },
+];
 const Roadmap = () => {
   return (
     <section className="items-start flex flex-col">
@@ -7,7 +123,14 @@ const Roadmap = () => {
         Roadmap
       </div>
       <div className="self-stretch text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        A Simple Roadmap for Project Growth.
+        Mapping the Future of AiDocker
+      </div>
+      <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+        Our roadmap is a testament to our commitment to growth and innovation.
+        We've come a long way, but the journey ahead is even more exciting.
+        Upcoming milestones focus on expanding our dataset library, enhancing
+        the DePIN network, and introducing new tools that make AI development
+        more intuitive and powerful.
       </div>
       <img
         loading="lazy"
@@ -32,19 +155,27 @@ const Roadmap = () => {
                 </span>
               </div>
               <div className="bg-white bg-opacity-10 shrink-0 h-px mt-6" />
-              <div className="text-white text-base font-[450] leading-6 tracking-normal mt-6">
-                Node as a service launch through Newrl
-              </div>
-              <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                Bringing a chance to mine tokens to masses in a few simple
-                clicks
-              </div>
-              <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                Node as a service launch through Newrl
-              </div>
-              <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                Node as a service launch through Newrl
-              </div>
+
+              {roadMapDataQ423.map((item, index) => (
+                <div key={index}>
+                  <div className="text-white text-opacity-50 font-medium leading-5 tracking-normal whitespace-nowrap">
+                    {item.title}
+                  </div>
+                  <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3 mb-2">
+                    {item.description}
+                  </div>
+                </div>
+              ))}
+              {/* <div>
+                <span className="text-white shrink-0 h-px mt-6">
+                  Internal Testing:
+                </span>
+                <span>
+                  Conducting thorough internal testing of the MVP to ensure
+                  reliability, efficiency, and readiness for the next stages of
+                  development.
+                </span>
+              </div> */}
             </span>
           </div>
           <div className="flex flex-col blur-background-white text-gray-400 items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
@@ -70,16 +201,16 @@ const Roadmap = () => {
                       <div className="text-white text-opacity-50 text-xs font-medium leading-5 tracking-normal whitespace-nowrap">
                         Plase 1.0
                       </div>
-                      <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
-                        Node as a service launch through Newrl
-                      </div>
-                      <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                        Bringing a chance to mine tokens to masses in a few
-                        simple clicks
-                      </div>
-                      <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                        Node as a service launch through Newrl
-                      </div>
+                      {roadMapDataQ124P1.map((item, index) => (
+                        <div key={index}>
+                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                            {item.title}
+                          </div>
+                          <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                            {item.description}
+                          </div>
+                        </div>
+                      ))}
                     </span>
                   </div>
                   <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
@@ -87,16 +218,16 @@ const Roadmap = () => {
                       <div className="text-white text-opacity-50 text-xs font-medium leading-5 tracking-normal whitespace-nowrap">
                         Plase 2.0
                       </div>
-                      <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
-                        Node as a service launch through Newrl
-                      </div>
-                      <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                        Bringing a chance to mine tokens to masses in a few
-                        simple clicks
-                      </div>
-                      <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                        Node as a service launch through Newrl
-                      </div>
+                      {roadMapDataQ124P2.map((item, index) => (
+                        <div key={index}>
+                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                            {item.title}
+                          </div>
+                          <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                            {item.description}
+                          </div>
+                        </div>
+                      ))}
                     </span>
                   </div>
                 </div>
@@ -117,16 +248,16 @@ const Roadmap = () => {
                 </span>
               </span>
               <div className="bg-white bg-opacity-10 self-stretch shrink-0 h-px mt-6" />
-              <div className="self-stretch text-white text-base font-[450] leading-6 tracking-normal mt-6">
-                Node as a service launch through Newrl
-              </div>
-              <div className="self-stretch text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
-                Bringing a chance to mine tokens to masses in a few simple
-                clicks
-              </div>
-              <div className="self-stretch text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3 mb-2">
-                Node as a service launch through Newrl
-              </div>
+              {roadMapDataQ124P3.map((item, index) => (
+                <div key={index}>
+                  <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                    {item.title}
+                  </div>
+                  <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                    {item.description}
+                  </div>
+                </div>
+              ))}
             </span>
           </div>
         </div>

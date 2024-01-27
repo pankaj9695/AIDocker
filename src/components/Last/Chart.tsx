@@ -22,13 +22,14 @@ const Chart = () => {
         Problem and solution
       </div>
       <div className="text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        Problem and solution text headline replace here
+        Unprecedented Surge in AI Hardware Demand
       </div>
       <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
-        In this beginning era of a.i which is future of technology,
-        computational
+        SaaS companies spend 50%+ of their cost of goods sold (COGS) on
+        infrastructure hosting costs. As demand for AI software grows, the
+        demand for hardware could rise accordingly.
       </div>
-      <div className="items-stretch self-center flex gap-3.5 mt-16 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
+      {/* <div className="items-stretch self-center flex gap-3.5 mt-16 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
         <span className="flex justify-between gap-5 p-6 rounded-2xl items-start max-md:max-w-full max-md:flex-wrap max-md:px-5">
           <div className="items-center bg-[linear-gradient(157deg,#FF852D_15.06%,#FF7878_97.93%)] flex aspect-square flex-col justify-center w-[42px] h-[42px] px-2 rounded-lg">
             <img
@@ -55,7 +56,7 @@ const Chart = () => {
             or user{" "}
           </div>
         </span>
-      </div>
+      </div> */}
 
       <div className="self-center w-full max-w-[1036px] mt-8 rounded-2xl max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">

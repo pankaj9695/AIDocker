@@ -15,15 +15,18 @@ const Revenue = () => {
 
     // </div>
     <span className="justify-center items-center self-stretch border backdrop-blur-[6px] flex flex-col px-12 py-12 bg-white bg-opacity-10 rounded-3xl border-solid border-white border-opacity-20 max-md:px-5">
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase  whitespace-nowrap mt-3.5">
+      <div className="text-xl font-medium leading-4 tracking-widest uppercase  whitespace-nowrap mt-3.5">
         <span className="heading-gradient">Revenue Stream</span>
       </div>
       <div className="self-stretch text-white text-center text-4xl font-bold leading-[56px] tracking-tighter mt-1.5 max-md:max-w-full">
-        Problem and solution text headline replace here
+        Monetize Your AI Innovations and Contributions
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter mt-1 max-md:max-w-full">
-        In this beginning era of a.i which is future of technology,
-        computational
+        AiDocker isn't just a development platform; it's also an opportunity for
+        creators to monetize their work. Whether it's by sharing unique AI
+        models, contributing to our vast dataset pool, or providing GPU power in
+        our DePIN network, users can earn revenue, making AiDocker a mutually
+        beneficial ecosystem.
       </div>
       <motion.div
         // variants={sectionVariants}
@@ -32,7 +35,8 @@ const Revenue = () => {
         // whileInView={"animate"}
         className="w-full mx-auto flex justify-center"
       >
-        <OctopusSvg />
+        <img src="/Group 1597877665ai-docker.png" alt="" />
+        {/* <OctopusSvg /> */}
       </motion.div>
     </span>
   );

@@ -21,8 +21,8 @@ const headerVariants = {
 const Solution = () => {
   return (
     <section className="items-start self-stretch flex flex-col">
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
-        Problem and solution
+      <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
+        Overcoming Barriers in AI Development
       </div>
       <div className="self-stretch leading-[44px] text-white text-center text-4xl font-bold sm:leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
         Problem and solution text headline replace here
@@ -51,7 +51,10 @@ const Solution = () => {
                   Compute demand
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Hgh end gpu are expensive and not available to everyone
+                  The demand for computational power is immense and growing.
+                  Developers often find themselves constrained by the lack of
+                  accessible, high-performance computing resources necessary for
+                  complex model training and data processing.
                 </div>
               </span>
               <img
@@ -69,10 +72,10 @@ const Solution = () => {
                   Rentable GPUs
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Our protocol will have high end GPus to average GPUs ,be it
-                  supplier or user they can earn revenue for sharing and using{" "}
-                  <br />
-                  GPUs
+                  The high cost of GPUs poses a significant barrier for
+                  individual developers and small teams. There's a pressing need
+                  for a flexible, cost-effective solution that allows for the
+                  renting of GPU power as and when needed.
                 </div>
               </motion.span>
             </div>
@@ -95,7 +98,10 @@ const Solution = () => {
                   Data accessibility
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Hgh end gpu are expensive and not available to everyone
+                  Access to diverse and extensive datasets is crucial for
+                  development. However, many developers face challenges in
+                  obtaining the right data, which limits their ability to
+                  innovate and train effective models.
                 </div>
               </span>
               <img
@@ -113,10 +119,10 @@ const Solution = () => {
                   Data Marketplace
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Our protocol will have high end GPus to average GPUs ,be it
-                  supplier or user they can earn revenue for sharing and using{" "}
-                  <br />
-                  GPUs
+                  A centralized marketplace for data is essential to facilitate
+                  the exchange of high-quality datasets, yet such a platform is
+                  currently lacking, hindering collaborative development and
+                  data sharing.
                 </div>
               </motion.span>
             </div>
@@ -136,10 +142,13 @@ const Solution = () => {
                   className="aspect-square object-contain object-center w-7 overflow-hidden max-w-full"
                 />
                 <div className="self-stretch text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
-                  Decentralisation
+                  Centralization
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Hgh end gpu are expensive and not available to everyone
+                  The centralized nature of current computational resources
+                  leads to bottlenecks and inefficiencies. A decentralized
+                  approach is needed to democratize access and enhance
+                  collaboration in the AI community.
                 </div>
               </span>
               <img
@@ -157,10 +166,10 @@ const Solution = () => {
                   Model Training
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Our protocol will have high end GPus to average GPUs ,be it
-                  supplier or user they can earn revenue for sharing and using{" "}
-                  <br />
-                  GPUs
+                  Effective model training requires not just data and computing
+                  power, but also an environment that supports rapid iteration
+                  and testing. The current lack of such an environment slows
+                  down the AI development process.
                 </div>
               </motion.span>
             </div>

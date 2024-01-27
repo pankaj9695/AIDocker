@@ -7,14 +7,14 @@ const Team = () => {
         Our Team
       </div>
       <div className="self-stretch text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        Meet the Founding Team and Advisory
+        Meet the Founding Team
       </div>
       <div className="self-stretch text-white text-xl font-medium leading-8 tracking-tighter w-full mt-8 max-md:max-w-full">
         Founding team member
       </div>
       <div className="justify-center self-stretch bg-white bg-opacity-10 w-full mt-4  rounded-2xl max-md:max-w-full">
         <div className="gap-0 flex overflow-x-auto  max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+          <div className="flex flex-col items-stretch w-4/12 max-md:w-full max-md:ml-0">
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img
                 loading="lazy"
@@ -31,7 +31,7 @@ const Team = () => {
               </span>
             </div>
           </div>
-          <div className="flex flex-col items-stretch w-3/12  max-md:w-full max-md:ml-0">
+          <div className="flex flex-col items-stretch w-4/12  max-md:w-full max-md:ml-0">
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img
                 loading="lazy"
@@ -48,7 +48,7 @@ const Team = () => {
               </span>
             </div>
           </div>
-          <div className="flex flex-col items-stretch w-3/12  max-md:w-full max-md:ml-0">
+          <div className="flex flex-col items-stretch w-4/12  max-md:w-full max-md:ml-0">
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img
                 loading="lazy"
@@ -65,7 +65,7 @@ const Team = () => {
               </span>
             </div>
           </div>
-          <div className="flex flex-col items-stretch w-3/12  max-md:w-full max-md:ml-0">
+          {/* <div className="flex flex-col items-stretch w-3/12  max-md:w-full max-md:ml-0">
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 rounded-3xl">
               <img
                 loading="lazy"
@@ -81,13 +81,13 @@ const Team = () => {
                 </div>
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="self-stretch text-white text-xl font-medium leading-8 tracking-tighter w-full mt-4 max-md:max-w-full">
+      {/* <div className="self-stretch text-white text-xl font-medium leading-8 tracking-tighter w-full mt-4 max-md:max-w-full">
         Advisory
-      </div>
-      <div className="justify-center self-stretch backdrop-blur-[14px] bg-white bg-opacity-10 w-full mt-4 px-5 rounded-2xl max-md:max-w-full">
+      </div> */}
+      {/* <div className="justify-center self-stretch backdrop-blur-[14px] bg-white bg-opacity-10 w-full mt-4 px-5 rounded-2xl max-md:max-w-full">
         <div className=" flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
             <div className="justify-between items-center flex grow gap-5 p-6 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid max-md:px-5">
@@ -160,7 +160,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </span>
   );
 };
