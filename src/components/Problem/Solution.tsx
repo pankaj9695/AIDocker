@@ -21,11 +21,8 @@ const headerVariants = {
 const Solution = () => {
   return (
     <section className="items-start self-stretch flex flex-col">
-      <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
+      <div className="self-stretch leading-[44px] heading-gradient mt-32 text-white text-center text-4xl font-bold sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
         Overcoming Barriers in AI Development
-      </div>
-      <div className="self-stretch leading-[44px] text-white text-center text-4xl font-bold sm:leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        Problem and solution text headline replace here
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         In this beginning era of a.i which is future of technology,
@@ -52,9 +49,9 @@ const Solution = () => {
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   The demand for computational power is immense and growing.
-                  Developers often find themselves constrained by the lack of
-                  accessible, high-performance computing resources necessary for
-                  complex model training and data processing.
+                  Developers often find themselves constrained
+                  {/* accessible, high-performance computing resources necessary for
+                  complex model training and data processing. */}
                 </div>
               </span>
               <img
@@ -73,9 +70,7 @@ const Solution = () => {
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   The high cost of GPUs poses a significant barrier for
-                  individual developers and small teams. There's a pressing need
-                  for a flexible, cost-effective solution that allows for the
-                  renting of GPU power as and when needed.
+                  individual developers and small teams.
                 </div>
               </motion.span>
             </div>
@@ -99,9 +94,7 @@ const Solution = () => {
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   Access to diverse and extensive datasets is crucial for
-                  development. However, many developers face challenges in
-                  obtaining the right data, which limits their ability to
-                  innovate and train effective models.
+                  development. However, many developers face
                 </div>
               </span>
               <img
@@ -120,9 +113,7 @@ const Solution = () => {
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   A centralized marketplace for data is essential to facilitate
-                  the exchange of high-quality datasets, yet such a platform is
-                  currently lacking, hindering collaborative development and
-                  data sharing.
+                  the exchange of high-quality datasets,
                 </div>
               </motion.span>
             </div>
@@ -146,9 +137,7 @@ const Solution = () => {
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   The centralized nature of current computational resources
-                  leads to bottlenecks and inefficiencies. A decentralized
-                  approach is needed to democratize access and enhance
-                  collaboration in the AI community.
+                  leads to bottlenecks and inefficiencies.
                 </div>
               </span>
               <img
@@ -167,9 +156,7 @@ const Solution = () => {
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   Effective model training requires not just data and computing
-                  power, but also an environment that supports rapid iteration
-                  and testing. The current lack of such an environment slows
-                  down the AI development process.
+                  power, but also an environment that
                 </div>
               </motion.span>
             </div>

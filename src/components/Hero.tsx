@@ -46,7 +46,7 @@ const Hero = () => {
                 variants={textVariants}
                 className="text-white text-opacity-90 text-6xl font-bold leading-[81px] tracking-tighter bg-clip-text self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-10"
               >
-                <span className="font-medium">Empowering Enterprises </span>
+                <span className="font-medium">Empowering </span>
                 <span className="font-medium ">to Build decentralized </span>
                 <motion.span
                   variants={textVariants}

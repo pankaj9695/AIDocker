@@ -34,11 +34,11 @@ const Earning = () => {
       id="cards"
       className="justify-center items-center self-stretch flex flex-col"
     >
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
+      {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Problem and solution
-      </div>
-      <div className="self-stretch text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
-        Problem and solution text headline replace here
+      </div> */}
+      <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
+        AiDocker's Ecosystem: A Symphony of Features
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         In this beginning era of a.i which is future of technology,
@@ -161,7 +161,7 @@ const Earning = () => {
         </div>
       </div> */}
       <div className="justify-center self-stretch mt-20 w-full">
-        <div className="gap-5 flex max-md:flex-col px-5 max-md:items-stretch max-md:gap-0">
+        <div className="gap-5 flex max-md:flex-col px-5  max-md:items-stretch max-md:gap-0">
           <div className="flex bg-white mb-6 md:mb-0  bg-opacity-10 rounded-2xl flex-col items-stretch w-[65%] max-md:w-full max-md:ml-0">
             <span className="items-start card border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex grow flex-col w-full p-8 rounded-2xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="self-stretch text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
@@ -286,7 +286,7 @@ const Earning = () => {
           </span>
         </div>
       </div>
-      <div className="justify-center self-stretch w-full mt-5 px-5 max-md:max-w-full">
+      <div className="justify-center self-stretch w-full  mt-5 px-5 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="card flex bg-white bg-opacity-10 rounded-2xl flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <span className="justify-center items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex grow flex-col w-full p-8 rounded-2xl border-solid max-md:mt-5 max-md:px-5">

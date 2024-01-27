@@ -17,14 +17,14 @@ const Chart = () => {
   const ref = useRef(null);
 
   return (
-    <span className="justify-center items-stretch self-stretch flex flex-col">
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
+    <span className="justify-center items-stretch self-stretch flex  mt-32 flex-col">
+      {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Problem and solution
-      </div>
-      <div className="text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
+      </div> */}
+      <div className="text-white text-center  heading-gradient  text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
         Unprecedented Surge in AI Hardware Demand
       </div>
-      <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="text-white sm:w-[80%] mx-auto text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         SaaS companies spend 50%+ of their cost of goods sold (COGS) on
         infrastructure hosting costs. As demand for AI software grows, the
         demand for hardware could rise accordingly.

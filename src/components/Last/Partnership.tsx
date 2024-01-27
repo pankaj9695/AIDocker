@@ -3,8 +3,11 @@ import Image from "next/image";
 
 const Partnership = () => {
   return (
-    <span className="justify-center items-center flex flex-col mt-32 p-8 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5">
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient whitespace-nowrap">
+    <span className="justify-center items-center flex flex-col mt-20 p-8 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5">
+      {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient whitespace-nowrap">
+        Partnership
+      </div> */}
+      <div className="text-white text-center text-4xl heading-gradient font-bold leading-[56px] tracking-tighter  max-md:max-w-full">
         Partnership
       </div>
       <div className="justify-center items-center self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:px-5">

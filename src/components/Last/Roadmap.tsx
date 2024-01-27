@@ -119,19 +119,19 @@ const roadMapDataQ124P3 = [
 const Roadmap = () => {
   return (
     <section className="items-start flex flex-col">
-      <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
+      {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Roadmap
-      </div>
-      <div className="self-stretch text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
+      </div> */}
+      <div className="self-stretch text-white heading-gradient mt-32 text-center text-4xl font-bold leading-[56px] tracking-tighter w-full  max-md:max-w-full">
         Mapping the Future of AiDocker
       </div>
-      <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      {/* <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         Our roadmap is a testament to our commitment to growth and innovation.
         We've come a long way, but the journey ahead is even more exciting.
         Upcoming milestones focus on expanding our dataset library, enhancing
         the DePIN network, and introducing new tools that make AI development
         more intuitive and powerful.
-      </div>
+      </div> */}
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ee8de55f65af4fed3fa473b19f2fe1645155816960469750283d27344b53df1?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
@@ -158,12 +158,15 @@ const Roadmap = () => {
 
               {roadMapDataQ423.map((item, index) => (
                 <div key={index}>
-                  <div className="text-white text-opacity-50 font-medium leading-5 tracking-normal whitespace-nowrap">
+                  {/* <div className="text-white text-opacity-50 font-medium leading-5 tracking-normal whitespace-nowrap">
+                    {item.title}
+                  </div> */}
+                  <div className="text-white text-opacity-60 text-base font-[450] leading-6 tracking-normal mt-3">
                     {item.title}
                   </div>
-                  <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3 mb-2">
+                  {/* <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3 mb-2">
                     {item.description}
-                  </div>
+                  </div> */}
                 </div>
               ))}
               {/* <div>
@@ -206,9 +209,9 @@ const Roadmap = () => {
                           <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
                             {item.title}
                           </div>
-                          <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                          {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
                             {item.description}
-                          </div>
+                          </div> */}
                         </div>
                       ))}
                     </span>
@@ -223,9 +226,9 @@ const Roadmap = () => {
                           <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
                             {item.title}
                           </div>
-                          <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                          {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
                             {item.description}
-                          </div>
+                          </div> */}
                         </div>
                       ))}
                     </span>
@@ -253,9 +256,9 @@ const Roadmap = () => {
                   <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
                     {item.title}
                   </div>
-                  <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
+                  {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
                     {item.description}
-                  </div>
+                  </div> */}
                 </div>
               ))}
             </span>

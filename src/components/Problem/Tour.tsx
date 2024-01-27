@@ -23,13 +23,14 @@ const Tour = () => {
     <div className="justify-between  self-stretch px-5 mt-20 max-md:px-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div className="flex flex-col items-stretch w-[63%] max-md:w-full max-md:ml-0">
-          <span className="justify-center items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
+          <span className="justify-center items-stretch self-stretch flex flex-col my-auto w-[75%] max-md:mt-10">
             {/* <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
               <span className="heading-gradient ">Opportunity</span>
             </div> */}
-            <div className="text-white text-4xl font-medium leading-[52px] tracking-tighter mt-3.5 max-md:max-w-full">
+            <div className="text-white heading-gradient font-bold text-4xl  leading-[52px] tracking-tighter mt-3.5 max-md:max-w-full">
               The Annotation Tool For Top-quality Training Data
             </div>
+
             <div className="text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter mt-6 max-md:max-w-full">
               At AiDocker, our approach to AI model development is meticulously
               crafted. Following the research and development of Large Language
