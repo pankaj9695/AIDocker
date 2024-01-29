@@ -128,12 +128,12 @@ const Roadmap = () => {
       <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         Our roadmap is a testament to our commitment to growth and innovation.
       </div>
-      <img
+      {/* <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ee8de55f65af4fed3fa473b19f2fe1645155816960469750283d27344b53df1?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
         className="aspect-[134.44] object-contain object-center w-full items-start overflow-hidden self-stretch mt-16 max-md:max-w-full max-md:mt-10"
-      />
-      <div className="self-stretch w-full mt-4 px-5 max-md:max-w-full">
+      /> */}
+      <div className="self-stretch w-full mt-16 px-5 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[28%] max-md:w-full max-md:ml-0">
             <span className="items-stretch blur-background-orange text-gray-400 border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex w-full grow flex-col mx-auto p-6 rounded-3xl border-[3px] border-solid max-md:mt-5 max-md:px-5">
