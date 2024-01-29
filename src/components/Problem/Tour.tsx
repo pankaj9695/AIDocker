@@ -19,6 +19,7 @@ const Tour = () => {
       clearInterval(timer);
     };
   }, []);
+  const [play, setPlay] = useState(true);
   return (
     <div className="justify-between  self-stretch px-5 mt-20 max-md:px-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -41,7 +42,18 @@ const Tour = () => {
           </span>
         </div>
         <div className="flex justify-center relative mx-auto flex-col items-stretch w-[22.5%] ml-5 mt-5 max-md:w-full max-md:ml-0">
-          <SvgComponent />
+          {/* <SvgComponent /> */}
+          <div style={{ height: "600px", width: "500px" }}>
+            <video
+              style={{ height: "100%", width: "100%", objectFit: "contain" }}
+              onEnded={() => setPlay(false)}
+              autoPlay={play}
+              muted
+            >
+              <source src="/boxes_2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </div>

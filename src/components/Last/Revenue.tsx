@@ -36,7 +36,18 @@ const Revenue = () => {
         className="w-full mx-auto flex justify-center"
       >
         {/* <img src="/Group 1597877665ai-docker.png" alt="" /> */}
-        <OctopusSvg />
+        {/* <OctopusSvg /> */}
+        <div style={{ borderRadius: "20px", overflow: "hidden" }}>
+          <video
+            style={{ height: "100%", width: "100%", objectFit: "contain" }}
+            autoPlay
+            muted
+            loop
+          >
+            <source src="/ecosystem.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </motion.div>
     </span>
   );
