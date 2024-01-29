@@ -125,13 +125,9 @@ const Roadmap = () => {
       <div className="self-stretch text-white heading-gradient mt-32 text-center text-4xl font-bold leading-[56px] tracking-tighter w-full  max-md:max-w-full">
         Mapping the Future of AiDocker
       </div>
-      {/* <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         Our roadmap is a testament to our commitment to growth and innovation.
-        We've come a long way, but the journey ahead is even more exciting.
-        Upcoming milestones focus on expanding our dataset library, enhancing
-        the DePIN network, and introducing new tools that make AI development
-        more intuitive and powerful.
-      </div> */}
+      </div>
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ee8de55f65af4fed3fa473b19f2fe1645155816960469750283d27344b53df1?apiKey=caf73ded90744adfa0fe2d98abed61c0&"

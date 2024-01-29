@@ -35,8 +35,8 @@ const Revenue = () => {
         // whileInView={"animate"}
         className="w-full mx-auto flex justify-center"
       >
-        <img src="/Group 1597877665ai-docker.png" alt="" />
-        {/* <OctopusSvg /> */}
+        {/* <img src="/Group 1597877665ai-docker.png" alt="" /> */}
+        <OctopusSvg />
       </motion.div>
     </span>
   );

@@ -13,12 +13,13 @@ const MobileNav = ({
         <div className="items-stretch flex justify-between gap-1.5">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/49a051625f79cdca609c91574ee31e1b5f3ceda143f14a00c399eda40cd33b7f?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 fill-[linear-gradient(157deg,#FF852D_15.06%,#FF7878_97.93%)] overflow-hidden shrink-0 max-w-full"
+            src="/logosvg.svg"
+            className="aspect-w-16 aspect-h-9 h-9"
+            aria-label="Logo"
           />
-          <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">
+          {/* <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">
             AiDocker
-          </div>
+          </div> */}
         </div>
         <button onClick={() => setShowMenu(false)}>
           <img

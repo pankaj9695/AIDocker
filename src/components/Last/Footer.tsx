@@ -11,17 +11,15 @@ const Footer = () => {
                 <span className="items-stretch flex gap-2">
                   <img
                     loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/372f8a4a5989d2af217eba62f08d934fc08e6adce74baa514e78ad750b5c074c?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-                    className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full"
+                    src="/logosvg.svg"
+                    className="aspect-w-16 aspect-h-9 h-9"
+                    aria-label="Logo"
                   />
-                  <div className="text-white text-xl font-bold leading-8 tracking-tighter grow whitespace-nowrap">
-                    AiDocker
-                  </div>
                 </span>
                 <div className="text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter self-stretch mt-5 max-md:max-w-full">
-                  In this beginning era of a.i which is future of technology,
-                  computational for models training and our vision is to make a
-                  marketplace where users and developers{" "}
+                  To get started, sign up on our platform. You'll gain access to
+                  our resources, including datasets and GPU power, and can begin
+                  developing and deploying your AI models.
                 </div>
               </span>
             </div>
@@ -64,7 +62,7 @@ const Footer = () => {
         <div className="bg-white bg-opacity-10 shrink-0 h-px mt-12 max-md:max-w-full max-md:mt-10" />
         <span className="justify-between items-stretch flex w-full gap-5 mt-12 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
           <div className="text-white text-xs font-medium leading-5 tracking-normal">
-            Copyright © 2023 <span className="font-bold">AiDocker</span>.
+            Copyright © 2024 <span className="font-bold">AiDocker</span>.
           </div>
           <span className="items-stretch flex justify-between gap-5">
             <div className="text-white text-xs font-medium leading-5 tracking-normal grow whitespace-nowrap">

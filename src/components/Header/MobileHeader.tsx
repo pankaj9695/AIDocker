@@ -9,12 +9,13 @@ const MobileHeader = () => {
         <span className="items-stretch flex justify-between gap-1.5">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5bb98dd66ab318e452379acf2438edfffa2644c2dd83bf9c72de04e94d77cd6?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-            className="aspect-square object-contain object-center w-6 fill-[linear-gradient(157deg,#FF852D_15.06%,#FF7878_97.93%)] overflow-hidden shrink-0 max-w-full"
+            src="/logosvg.svg"
+            className="aspect-w-16 aspect-h-9 h-9"
+            aria-label="Logo"
           />
-          <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">
+          {/* <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">
             AiDocker
-          </div>
+          </div> */}
         </span>
         <button onClick={() => setShowMenu(true)}>
           <img

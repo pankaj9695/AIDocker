@@ -21,13 +21,14 @@ const Header = () => {
           <span className="items-stretch flex justify-between gap-2.5">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd8dac905f700939c3983f83e8bbe6e3b8332ae93d0a0cb4aadde36bf56c6704?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-              className="aspect-[0.97] object-contain object-center w-[31px] fill-[linear-gradient(157deg,#FF852D_15.06%,#FF7878_97.93%)] overflow-hidden shrink-0 max-w-full"
+              src="/logosvg.svg"
+              className="aspect-w-16 aspect-h-9 h-9 ms-0"
               aria-label="Logo"
             />
-            <div className="text-white text-xl font-bold leading-8 tracking-tighter grow whitespace-nowrap">
+
+            {/* <div className="text-white text-xl font-bold leading-8 tracking-tighter grow whitespace-nowrap">
               AiDocker
-            </div>
+            </div> */}
           </span>
           <span className="items-stretch flex gap-5 p-2.5 self-start">
             <a
@@ -59,7 +60,7 @@ const Header = () => {
               Team
             </a>
           </span>
-          <div className="center-box me-10">
+          <div className="center-box me-12">
             <div className="animated-border-box-glow"></div>
             <button
               className="animated-border-box text-neutral-900 text-xs font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"

@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
-import EarthSvg from "@/components/EarthSvg";
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const textVariants = {
   initial: {
@@ -31,6 +30,17 @@ const imageVariants = {
 };
 
 const Hero = () => {
+  const words = ["LLM Models", "AI models", "AI Datasets"];
+
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % words.length);
+    }, 3000); // Change word every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section className="justify-center items-center self-stretch flex flex-col px-16 py-6 sm:py-12 max-md:px-5">
       <div className="w-full max-w-[1216px] sm:mt-8 mb-3.5 max-md:max-w-full">
@@ -48,12 +58,26 @@ const Hero = () => {
               >
                 <span className="font-medium">Empowering </span>
                 <span className="font-medium ">to Build decentralized </span>
-                <motion.span
+                {/* <motion.span
                   variants={textVariants}
                   className="font-medium text-gradient leading-[72.4020767211914px]"
                 >
-                  AImodels.
-                </motion.span>
+                  {words[0]}
+                </motion.span> */}
+                <div style={{ height: "72px", overflow: "hidden" }}>
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={current}
+                      initial={{ y: "-100%" }}
+                      animate={{ y: "0%" }}
+                      exit={{ y: "100%" }}
+                      transition={{ duration: 0.5 }}
+                      className="font-medium text-gradient leading-[72.4020767211914px]"
+                    >
+                      {words[current]}
+                    </motion.div>
+                  </AnimatePresence>
+                </div>
               </motion.h1>
               <motion.p
                 variants={textVariants}
@@ -102,7 +126,7 @@ const Hero = () => {
                   Your browser does not support the video tag.
                 </video>
                 <img
-                  src="/earth-img.png"
+                  src="/earth2.0.svg"
                   alt="Description of image"
                   className="hero-image"
                 />

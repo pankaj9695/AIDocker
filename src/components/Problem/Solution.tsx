@@ -25,8 +25,7 @@ const Solution = () => {
         Overcoming Barriers in AI Development
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
-        In this beginning era of a.i which is future of technology,
-        computational
+        Your comprehensive solution for all AI-related needs.
       </div>
       <div className="self-stretch w-full mt-16 px-5 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -48,10 +47,9 @@ const Solution = () => {
                   Compute demand
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  The demand for computational power is immense and growing.
-                  Developers often find themselves constrained
-                  {/* accessible, high-performance computing resources necessary for
-                  complex model training and data processing. */}
+                  Developers face growing demands for computational power, often
+                  hindered by the scarcity of accessible, high-performance
+                  resources for advanced model training.
                 </div>
               </span>
               <img
@@ -69,8 +67,9 @@ const Solution = () => {
                   Rentable GPUs
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  The high cost of GPUs poses a significant barrier for
-                  individual developers and small teams.
+                  AiDocker's DePIN network provides scalable GPU resources,
+                  enabling users to easily meet the computational demands of
+                  their AI projects.
                 </div>
               </motion.span>
             </div>
@@ -93,8 +92,9 @@ const Solution = () => {
                   Data accessibility
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Access to diverse and extensive datasets is crucial for
-                  development. However, many developers face
+                  Developers often struggle to access current, diverse datasets,
+                  hindering their ability to innovate and effectively train AI
+                  models.
                 </div>
               </span>
               <img
@@ -112,8 +112,9 @@ const Solution = () => {
                   Data Marketplace
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  A centralized marketplace for data is essential to facilitate
-                  the exchange of high-quality datasets,
+                  AiDocker offers a vast dataset library, providing developers
+                  with diverse, high-quality data essential for a variety of AI
+                  projects.
                 </div>
               </motion.span>
             </div>
@@ -152,11 +153,12 @@ const Solution = () => {
                 className="justify-center items-stretch self-stretch bg-white bg-opacity-10 flex flex-col mt-5 p-8 rounded-2xl max-md:px-5"
               >
                 <div className="text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap">
-                  Model Training
+                  Decentralization
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
-                  Effective model training requires not just data and computing
-                  power, but also an environment that
+                  AiDocker's decentralized platform streamlines AI development
+                  by providing an integrated environment for model training,
+                  simplifying and expediting the process.
                 </div>
               </motion.span>
             </div>
