@@ -49,7 +49,7 @@ const Solution = () => {
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   Developers face growing demands for computational power, often
                   hindered by the scarcity of accessible, high-performance
-                  resources for advanced model training.
+                  resources.
                 </div>
               </span>
               <img
@@ -138,7 +138,8 @@ const Solution = () => {
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   The centralized nature of current computational resources
-                  leads to bottlenecks and inefficiencies.
+                  leads to bottlenecks and inefficiencies, hindering optimal
+                  performance.
                 </div>
               </span>
               <img
@@ -157,8 +158,7 @@ const Solution = () => {
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
                   AiDocker's decentralized platform streamlines AI development
-                  by providing an integrated environment for model training,
-                  simplifying and expediting the process.
+                  by providing an integrated environment for model training.
                 </div>
               </motion.span>
             </div>

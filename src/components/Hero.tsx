@@ -41,6 +41,11 @@ const Hero = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  const imgVariants = {
+    initial: { scale: 0.5, opacity: 0 },
+    animate: { scale: 1, opacity: 1, transition: { duration: 0.7, delay: 1 } },
+  };
   return (
     <section className="justify-center items-center self-stretch flex flex-col px-16 py-6 sm:py-12 max-md:px-5">
       <div className="w-full max-w-[1216px] sm:mt-8 mb-3.5 max-md:max-w-full">
@@ -81,7 +86,7 @@ const Hero = () => {
               </motion.h1>
               <motion.p
                 variants={textVariants}
-                className="self-stretch text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter mt-5 max-md:max-w-full"
+                className="self-stretch text-white text-opacity-70 text-[1.15rem] font-[450] leading-8 tracking-tighter mt-5 max-md:max-w-full"
               >
                 From data-driven enthusiasts to seasoned developers, AiDocker is
                 the go-to destination for creating, training, and deploying AI
@@ -125,8 +130,12 @@ const Hero = () => {
                   <source src="/earth.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-                <img
-                  src="/earth2.0.svg"
+                <motion.img
+                  variants={imgVariants}
+                  initial="initial"
+                  // animate="animate"
+                  whileInView={"animate"}
+                  src="/earth4.0.svg"
                   alt="Description of image"
                   className="hero-image"
                 />

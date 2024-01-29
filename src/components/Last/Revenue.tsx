@@ -18,16 +18,12 @@ const Revenue = () => {
       {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase  whitespace-nowrap mt-3.5">
         <span className="heading-gradient">Revenue Stream</span>
       </div> */}
-      <div className="self-stretch heading-gradient text-white mb-16 text-center text-4xl font-bold leading-[56px] tracking-tighter mt-1.5 max-md:max-w-full">
+      <div className="self-stretch heading-gradient text-white mb-1 text-center text-4xl font-bold leading-[56px] tracking-tighter mt-1.5 max-md:max-w-full">
         AiDocker's Ecosystem: A Symphony of Features
       </div>
-      {/* <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter mt-1 max-md:max-w-full">
-        AiDocker isn't just a development platform; it's also an opportunity for
-        creators to monetize their work. Whether it's by sharing unique AI
-        models, contributing to our vast dataset pool, or providing GPU power in
-        our DePIN network, users can earn revenue, making AiDocker a mutually
-        beneficial ecosystem.
-      </div> */}
+      <div className="self-stretch text-white mb-6 text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter mt-1 max-md:max-w-full">
+        Our platform is rich with features that enhance your AI development
+      </div>
       <motion.div
         // variants={sectionVariants}
         // initial="initial"
