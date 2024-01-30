@@ -333,13 +333,14 @@ const Earning = () => {
                 className="aspect-[2.09] object-contain object-center w-full overflow-hidden mt-6"
               /> */}
               <div style={{ width: '100%', height: '140px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
-                  <img src="rim.png" style={{ width: '220px', height: '300px', zIndex: '1', paddingBottom: '0px', paddingLeft: '30px', paddingTop:'100px' }} />
-                  <div style={{ position: 'absolute', top: '70px', left: '100px', color: 'white' , textAlign:'center', alignItems:'center'}}>
-                      <span>
-                          <p style={{ fontSize: '30px', margin: '0', color: 'white' }}>68%</p>
-                          {/* <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>-100.65 USD</p> */}
-                      </span>
-                  </div>
+                <img src="golla.png" style={{ position: 'absolute', width: '260px', height: '90%', zIndex: '2', paddingBottom: '48px', paddingLeft: '188px', paddingTop:'58px', paddingRight:'50px' }} />
+                <img src="golla2.png" style={{ position: 'absolute', width: '220px', height: '300px', zIndex: '1', paddingBottom: '0px', paddingLeft: '30px', paddingTop:'100px' }} />
+                <div style={{ position: 'absolute', top: '70px', left: '100px', color: 'white' , textAlign:'center', alignItems:'center'}}>
+                    <span>
+                        <p style={{ fontSize: '30px', margin: '0', color: 'white' }}>68%</p>
+                        {/* <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>-100.65 USD</p> */}
+                    </span>
+                </div>
                   <div style={{ position: 'absolute', top: '115px', left: '75px', display: 'flex', justifyContent: 'space-between', width: '100px' }}>
                       <button style={{ borderRadius: '20px', border: '0.5px solid red', backgroundColor: '#FFA07A', color: 'text-emerald-300', padding: '2px 5px', fontSize: '8px' }}>Upline⬆️</button>
                       <button style={{ borderRadius: '20px', border: '0.5px solid green', backgroundColor: '#90EE90', color: 'white', padding: '2px 5px', fontSize: '8px' }}>Downline🔽</button>
