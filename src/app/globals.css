@@ -231,3 +231,11 @@ body {
   /* background-color: #1d1e22; */
 }
 /*// Border Animation END//*/
+
+/* Earingn section */
+.earning1 {
+  background-image: url("/Earning1.svg");
+  background-size: cover;
+  background-position: center;
+  /* background: url("/Earning.png") center center/cover no-repeat; */
+}

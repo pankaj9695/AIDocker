@@ -9,6 +9,9 @@ const Partnership = () => {
     "/Vectorpart2.png",
     "/Vectorpart3.png",
     "/Vectorpart4.png",
+    "/Vectorpart2.png",
+    "/Vectorpart3.png",
+    "/Vectorpart4.png",
   ];
   return (
     <span className="justify-center items-center flex flex-col mt-20 p-8 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5">
@@ -19,10 +22,22 @@ const Partnership = () => {
         Partnership
       </div>
       <div className="justify-center items-center self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:px-5">
-        <div className="flex w-[627px] max-w-full flex-col items-stretch">
-          <div className="flex justify-between gap-5 p-4 items-start max-md:max-w-full max-md:flex-wrap">
+        <div className="flex w-[700px] max-w-full flex-col items-stretch">
+          <div className="grid grid-cols-4 gap-5 p-4 items-start max-md:max-w-full max-md:flex-wrap">
             {images.map((image) => (
-              <motion.span whileHover={{ scale: 1.2 }}>
+              <motion.span
+                className="p-6"
+                whileHover={{
+                  backgroundColor: "#21D4FD",
+                  backgroundImage:
+                    "linear-gradient(19deg, #21D4FD 0%, black 100%)",
+                  borderColor: "#B5FFFC",
+                  borderWidth: "1px",
+                  borderStyle: "solid",
+                }}
+                // transition={{ duration: 0.5 }}
+                style={{ borderRadius: "10px" }}
+              >
                 <Image src={image} height={120} width={120} alt="logo" />
               </motion.span>
             ))}

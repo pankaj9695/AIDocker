@@ -1,21 +1,16 @@
 "use client";
-import React, { useEffect, useState, useRef } from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 function Icon() {
-  //   const [isFirstMount, setIsFirstMount] = useState(true);
-  //   const hasMounted = useRef(false);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
-  //   useEffect(() => {
-  //     setIsFirstMount(false);
-  //   }, []);
-  const [animate, setAnimate] = useState({ scaleY: 0 });
+  console.log(isInView, ref);
 
-  useEffect(() => {
-    setAnimate({ scaleY: 1 });
-  }, []);
   return (
-    <svg
+    <motion.svg
+      ref={ref}
       xmlns="http://www.w3.org/2000/svg"
       width="460"
       height="400"
@@ -74,30 +69,32 @@ function Icon() {
           fill="#FF7B6C"
           d="M344.013 210.592H404.13399999999996V304.333H344.013z"
           initial={{ scaleY: 0, originY: 1 }}
-          animate={{ scaleY: 1 }}
+          // animate={{ scaleY: 1 }}
+          animate={isInView ? { scaleY: 1 } : { scaleY: 0 }}
           transition={{ duration: 1 }}
         />
         <motion.path
           fill="#FFA666"
           d="M344.013 150.49H404.13399999999996V210.592H344.013z"
           initial={{ scaleY: 0, originY: 1 }}
-          animate={{ scaleY: 1 }}
-          //   animate={{ scaleY: hasMounted.current ? 1 : 0 }}
-
+          // animate={{ scaleY: 1 }}
+          animate={isInView ? { scaleY: 1 } : { scaleY: 0 }}
           transition={{ duration: 1, delay: 1 }}
         />
         <motion.path
           fill="#FFD1B0"
           d="M344.013 104.793H404.13399999999996V150.49H344.013z"
           initial={{ scaleY: 0, originY: 1 }}
-          animate={{ scaleY: 1 }}
+          // animate={{ scaleY: 1 }}
+          animate={isInView ? { scaleY: 1 } : { scaleY: 0 }}
           transition={{ duration: 1, delay: 2 }}
         />
         <motion.path
           fill="#fff"
           d="M344.013 66.55H404.13399999999996V104.793H344.013z"
           initial={{ scaleY: 0, originY: 1 }}
-          animate={{ scaleY: 1 }}
+          // animate={{ scaleY: 1 }}
+          animate={isInView ? { scaleY: 1 } : { scaleY: 0 }}
           transition={{ duration: 1, delay: 3 }}
         />
       </g>
@@ -244,7 +241,7 @@ function Icon() {
           ></path>
         </clipPath>
       </defs>
-    </svg>
+    </motion.svg>
   );
 }
 

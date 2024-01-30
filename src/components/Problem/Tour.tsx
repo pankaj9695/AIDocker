@@ -1,7 +1,7 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { SvgComponent } from "../tourSvg";
+import React, { useState, useEffect, useRef } from "react";
+import { motion, useInView } from "framer-motion";
+
 const variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
@@ -10,16 +10,35 @@ const variants = {
 const Tour = () => {
   const [step, setStep] = useState(0);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setStep((prevStep) => prevStep + 1);
-    }, 1000); // Change image every 1 second
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-200px" });
 
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-  const [play, setPlay] = useState(true);
+  const [play, setPlay] = useState(false);
+  const videoRef = useRef(null);
+  const start = 10; // start time in seconds
+  const end = 20; // end time in seconds
+  console.log(play, "play");
+
+  // console.log("vedio in view", isInView);
+
+  useEffect(() => {
+    if (isInView) {
+      setTimeout(() => {
+        setPlay(true);
+      }, 700);
+    }
+  }, [isInView]);
+
+  useEffect(() => {
+    const vc = videoRef.current as any;
+    if (play) {
+      vc.play();
+    } else {
+      vc.pause();
+    }
+  }, [play]);
+
+  // const [play, setPlay] = useState(true);
   return (
     <div className="justify-between  self-stretch px-5 mt-20 max-md:px-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -43,17 +62,18 @@ const Tour = () => {
         </div>
         <div className="flex justify-center relative mx-auto flex-col items-stretch w-[22.5%] ml-5 mt-5 max-md:w-full max-md:ml-0">
           {/* <SvgComponent /> */}
-          <div style={{ height: "600px", width: "500px" }}>
+          <motion.div ref={ref} style={{ height: "600px", width: "500px" }}>
             <video
+              ref={videoRef}
               style={{ height: "100%", width: "100%", objectFit: "contain" }}
               onEnded={() => setPlay(false)}
-              autoPlay={play}
+              // autoPlay={play}
               muted
             >
               <source src="/boxes_2.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

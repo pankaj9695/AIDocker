@@ -1,0 +1,40 @@
+<svg width="323" height="106" viewBox="0 0 323 106" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_b_632_875)">
+<g clip-path="url(#clip0_632_875)">
+<rect x="0.333374" y="0.514648" width="322.667" height="105" rx="16" fill="url(#paint0_linear_632_875)" fill-opacity="0.1"/>
+<mask id="mask0_632_875" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-20" width="574" height="148">
+<rect width="573" height="147" transform="translate(0.333374 -19.4854)" fill="url(#pattern0)" fill-opacity="0.07"/>
+</mask>
+<g mask="url(#mask0_632_875)">
+<rect x="0.333374" y="-19.4854" width="573" height="147" fill="url(#paint1_radial_632_875)"/>
+</g>
+</g>
+<rect x="0.833374" y="1.01465" width="321.667" height="104" rx="15.5" stroke="white" stroke-opacity="0.05"/>
+</g>
+<defs>
+<filter id="filter0_b_632_875" x="-67.6666" y="-67.4854" width="458.667" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="34"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_632_875"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_632_875" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0418848" height="0.163265">
+<use xlink:href="#image0_632_875" transform="scale(0.0017452 0.00680272)"/>
+</pattern>
+<linearGradient id="paint0_linear_632_875" x1="161.667" y1="0.514648" x2="229.182" y2="298.245" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.08"/>
+</linearGradient>
+<radialGradient id="paint1_radial_632_875" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(286.833 -19.4854) rotate(101.621) scale(208.767 1161.82)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="0.144506" stop-color="#F1F1F1" stop-opacity="0.398527"/>
+<stop offset="0.460731" stop-color="white" stop-opacity="0.05"/>
+<stop offset="0.839086" stop-color="white" stop-opacity="0.400498"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<clipPath id="clip0_632_875">
+<rect x="0.333374" y="0.514648" width="322.667" height="105" rx="16" fill="white"/>
+</clipPath>
+<image id="image0_632_875" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAEBJREFUSEtjZKAhmDNnzn9GGprPMGoBwdAdDaLRICIYAgQVjKai0SAiGAIEFYymotEgIhgCBBWAUxGIIKiSAgUAhYND4S7DDmQAAAAASUVORK5CYII="/>
+</defs>
+</svg>
