@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import { url } from "inspector";
 
 const Earning = () => {
   useEffect(() => {
@@ -172,12 +173,29 @@ const Earning = () => {
               <div className="self-stretch text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-2 max-md:max-w-full">
                 Our protocol will have high end GPus to average{" "}
               </div>
-              <img
+              {/* <img
                 style={{ height: "100px" }}
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/304aa948ab14254d3fbe5a3184082e873b87065858307491824f33473c0bad1a?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                 className="aspect-[3.7] object-contain object-center w-fit items-center border backdrop-blur-[34px] overflow-hidden self-stretch mt-6 rounded-2xl border-solid border-white border-opacity-10 "
-              />
+              /> */}
+              <div style={{ marginTop: '10px', backgroundImage: "url('box1.png')", width: '100%', height: '90px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
+                <img src="knapsack.png" style={{ width: '150px', height: '110px', marginRight: 'auto', zIndex: '1' }} />
+                <div style={{ position: 'absolute', left: '90px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
+                    <span>
+                        <p style={{ color: 'white', fontSize: '14px' }}>NextPayout</p>
+                        <p style={{ color: 'white', fontSize: '24px' }}>5.98$</p>
+                    </span>
+                </div>
+                <p style={{ position: 'absolute', left: '160px', top: '60%', transform: 'translateY(-50%)', color: 'white', fontSize: '14px', margin: '0' }}>-23.65 USD</p>
+                <img src="timestamp.png" style={{ width: '135px', height: '75px', zIndex: '1', paddingRight: '2px' , paddingLeft:'10px'}} />
+            </div>
+
+
+
+
+
+
               <div className="justify-between items-stretch  backdrop-blur-[30px]  flex w-fit max-w-full flex-col mt-1.5 pt-2.5 px-4 rounded-2xl ">
                 <div className="justify-between items-center border backdrop-blur-[18px] flex gap-0.5 pl-1.5 pr-4 py-2 rounded-2xl border-solid border-white border-opacity-10 max-md:max-w-full max-md:flex-wrap">
                   <span className="flex grow basis-[0%] flex-col items-stretch my-auto">
@@ -227,14 +245,26 @@ const Earning = () => {
                         ~24.65 USD
                       </div>
                     </div> */}
-                    <Image
+                    {/* <Image
                       loading="lazy"
                       height={200}
                       width={200}
                       alt="logo"
                       src="/Frame 481809money-2.png"
                       className="absolute h-full w-full object-cover object-center inset-0"
-                    />
+                    /> */}
+
+                      <div style={{ backgroundImage: "url('bgcurr.png')", width: '100%', height: '140px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
+                          <img src="flower2.png" style={{ width: '140px', height: '190px', zIndex: '1', paddingBottom: '80px', paddingLeft: '15px', paddingTop:'2px' }} />
+                          <div style={{ position: 'absolute', top: '80px', left: '35px', color: 'white' , textAlign:'center', alignItems:'center'}}>
+                              <span>
+                                  <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>Unpaid $AID</p>
+                                  <p style={{ fontSize: '18px', margin: '0', color: 'white' }}>12.98 $AID</p>
+                                  <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>-24.65 USD</p>
+                              </span>
+                          </div>
+                      </div>
+
                   </div>
                 </div>
                 <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
@@ -263,14 +293,25 @@ const Earning = () => {
                         ~100.65 USD
                       </div>
                     </div> */}
-                    <Image
+                    {/* <Image
                       loading="lazy"
                       height={200}
                       width={200}
                       alt="logo"
                       src="/Frame 481809money.png"
                       className="absolute h-full w-full object-cover object-center inset-0"
-                    />
+                    /> */}
+
+                        <div style={{ backgroundImage: "url('bgface.png')", width: '100%', height: '140px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
+                          <img src="facey.png" style={{ width: '130px', height: '190px', zIndex: '1', paddingBottom: '80px', paddingLeft: '15px', paddingTop:'2px' }} />
+                          <div style={{ position: 'absolute', top: '80px', left: '35px', color: 'white' , textAlign:'center', alignItems:'center'}}>
+                              <span>
+                                  <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>Expected Earning</p>
+                                  <p style={{ fontSize: '18px', margin: '0', color: 'white' }}>50.98 $AID</p>
+                                  <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>-100.65 USD</p>
+                              </span>
+                          </div>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -278,20 +319,37 @@ const Earning = () => {
           </span>
         </div>
       </div>
-      <div className="justify-center self-stretch w-full  mt-5 px-5 max-md:max-w-full">
+      <div className="justify-center self-stretch w-full  mt-5 px-5 max-md:max-w-full" >
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="card flex bg-white bg-opacity-10 rounded-2xl flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
+          <div className="card flex bg-white bg-opacity-10 rounded-2xl flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0" style={{ backgroundImage: "url('repscorebg.png')"}}>
             <span className="justify-center h-fit items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex grow flex-col w-full px-8 py-2 rounded-2xl border-solid max-md:mt-5 max-md:px-5">
               <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal whitespace-nowrap">
                 Reputation Score
               </div>
-              <img
+              {/* <img
                 style={{ height: "50%" }}
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/d21c66c77cd4699c6c2a2960bc788b7ef00c8174854d2834da86f8e6ef41fdde?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                 className="aspect-[2.09] object-contain object-center w-full overflow-hidden mt-6"
-              />
+              /> */}
+              <div style={{ width: '100%', height: '140px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
+                  <img src="rim.png" style={{ width: '220px', height: '300px', zIndex: '1', paddingBottom: '0px', paddingLeft: '30px', paddingTop:'100px' }} />
+                  <div style={{ position: 'absolute', top: '70px', left: '100px', color: 'white' , textAlign:'center', alignItems:'center'}}>
+                      <span>
+                          <p style={{ fontSize: '30px', margin: '0', color: 'white' }}>68%</p>
+                          {/* <p style={{ fontSize: '10px', margin: '0', color: 'white' }}>-100.65 USD</p> */}
+                      </span>
+                  </div>
+                  <div style={{ position: 'absolute', top: '115px', left: '75px', display: 'flex', justifyContent: 'space-between', width: '100px' }}>
+                      <button style={{ borderRadius: '20px', border: '0.5px solid red', backgroundColor: '#FFA07A', color: 'text-emerald-300', padding: '2px 5px', fontSize: '8px' }}>Upline⬆️</button>
+                      <button style={{ borderRadius: '20px', border: '0.5px solid green', backgroundColor: '#90EE90', color: 'white', padding: '2px 5px', fontSize: '8px' }}>Downline🔽</button>
+                      
+
+                  </div>
+              </div>
+
             </span>
+            
           </div>
           <div className=" card flex bg-white bg-opacity-10 rounded-2xl flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
             <span className="justify-center items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex w-full grow flex-col mx-auto px-8 py-2 rounded-2xl border-solid max-md:mt-5 max-md:px-5">
@@ -329,12 +387,27 @@ const Earning = () => {
               <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-2">
                 Our protocol will have high end GPus to average{" "}
               </div>
-              <img
+              {/* <img
                 style={{ height: "45%" }}
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/086f1e7ae6d6f7f30ffcaec3e3487e1cbb012f99674ebf916b188171e5841d26?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                 className="aspect-[2.86] object-contain object-center w-fit items-center border backdrop-blur-[34px] overflow-hidden mt-6 rounded-2xl border-solid border-white border-opacity-10"
-              />
+              /> */}
+
+              <div style={{ marginTop: '10px', backgroundImage: "url('box1.png')", width: '100%', height: '70px', position: 'relative', display: 'flex', alignItems: 'center', borderRadius: '15px', justifyContent: 'space-between' }}>
+                <img src="knapsack.png" style={{ width: '100px', height: '80px', marginRight: 'auto', zIndex: '1' }} />
+                <div style={{ position: 'absolute', left: '60px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center' }}>
+                    <span>
+                        <p style={{ color: 'white', fontSize: '10px' }}>Total Income</p>
+                        <p style={{ color: 'white', fontSize: '16px' }}>123.98 USD</p>
+                    </span>
+                </div>
+                <p style={{ position: 'absolute', left: '120px', top: '65%', transform: 'translateY(-50%)'}}>
+                <img src="10img.png" style={{ width: '100px', height: '65px', zIndex: '1', paddingRight: '2px' , paddingLeft:'10px'}} />
+                </p>
+                
+              </div>
+
             </span>
           </div>
         </div>
