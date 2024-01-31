@@ -153,7 +153,7 @@ const Earning = () => {
                       {isInView ? (
                         <NumberAnimation
                           endNumber={5.98}
-                          duration={2000}
+                          duration={5000}
                           decimalPlaces={2}
                         />
                       ) : (
@@ -187,7 +187,7 @@ const Earning = () => {
                           {isInView ? (
                             <NumberAnimation
                               endNumber={10.98}
-                              duration={2000}
+                              duration={5000}
                               decimalPlaces={2}
                             />
                           ) : (
@@ -307,7 +307,7 @@ const Earning = () => {
                             {isInView ? (
                               <NumberAnimation
                                 endNumber={12.98}
-                                duration={2000}
+                                duration={5000}
                                 decimalPlaces={2}
                               />
                             ) : (
@@ -414,7 +414,7 @@ const Earning = () => {
                             {isInView ? (
                               <NumberAnimation
                                 endNumber={50.98}
-                                duration={2000}
+                                duration={5000}
                                 decimalPlaces={2}
                               />
                             ) : (
@@ -502,7 +502,7 @@ const Earning = () => {
                       {isInView ? (
                         <NumberAnimation
                           endNumber={68}
-                          duration={2000}
+                          duration={5000}
                           decimalPlaces={0}
                         />
                       ) : (
@@ -563,7 +563,7 @@ const Earning = () => {
                     {isInView ? (
                       <NumberAnimation
                         endNumber={10}
-                        duration={1000}
+                        duration={5000}
                         decimalPlaces={0}
                       />
                     ) : (
@@ -580,7 +580,7 @@ const Earning = () => {
                     {isInView ? (
                       <NumberAnimation
                         endNumber={10}
-                        duration={1000}
+                        duration={5000}
                         decimalPlaces={0}
                       />
                     ) : (
@@ -646,7 +646,7 @@ const Earning = () => {
                       {isInView ? (
                         <NumberAnimation
                           endNumber={123.98}
-                          duration={2000}
+                          duration={5000}
                           decimalPlaces={2}
                         />
                       ) : (
