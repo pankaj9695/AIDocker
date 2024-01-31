@@ -23,10 +23,10 @@ const Team = () => {
               />
               <span className="items-stretch flex flex-col p-4">
                 <div className="text-white text-xl font-medium leading-8 tracking-tighter whitespace-nowrap">
-                  Name Placeholder
+                  Saurav
                 </div>
                 <div className="text-white text-opacity-60 text-base font-medium leading-6 tracking-normal whitespace-nowrap mt-1.5">
-                  Founder, CEO
+                  Co-Founder
                 </div>
               </span>
             </div>
@@ -40,10 +40,10 @@ const Team = () => {
               />
               <span className="items-stretch flex flex-col p-4">
                 <div className="text-white text-xl font-medium leading-8 tracking-tighter whitespace-nowrap">
-                  Name Placeholder
+                  Ashok
                 </div>
                 <div className="text-white text-opacity-60 text-base font-medium leading-6 tracking-normal whitespace-nowrap mt-1.5">
-                  Founder, CEO
+                  Co-founder
                 </div>
               </span>
             </div>
@@ -57,10 +57,10 @@ const Team = () => {
               />
               <span className="items-stretch flex flex-col p-4">
                 <div className="text-white text-xl font-medium leading-8 tracking-tighter whitespace-nowrap">
-                  Name Placeholder
+                  Xinthi
                 </div>
                 <div className="text-white text-opacity-60 text-base font-medium leading-6 tracking-normal whitespace-nowrap mt-1.5">
-                  Founder, CEO
+                  CMO
                 </div>
               </span>
             </div>
