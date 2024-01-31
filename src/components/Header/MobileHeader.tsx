@@ -5,12 +5,12 @@ const MobileHeader = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="sm:hidden p-2">
-      <div className="justify-between bg-[#232323] rounded-[48px] items-stretch flex max-w-full gap-5 p-5 ">
+      <div className="justify-between bg-[#232323] rounded-[48px] items-stretch flex max-w-full gap-5 p-3 ">
         <span className="items-stretch flex justify-between gap-1.5">
           <img
             loading="lazy"
             src="/logosvg.svg"
-            className="aspect-w-16 aspect-h-9 h-9"
+            className="aspect-w-16 aspect-h-9 h-7"
             aria-label="Logo"
           />
           {/* <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">

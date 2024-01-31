@@ -37,18 +37,24 @@ const Earning = () => {
       ref={ref}
       className="justify-center items-center self-stretch flex flex-col mt-20"
     >
-      <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
+      {/* <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
+        Monetize Your AI Innovations and Contributions
+      </div> */}
+      <div className="text-white heading-gradient font-bold text-3xl sm:text-4xl text-center sm:text-start sm:leading-[52px] tracking-tighter mt-2 pb-1 sm:mt-3.5 max-md:max-w-full">
         Monetize Your AI Innovations and Contributions
       </div>
-      <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      {/* <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         AI Enthusiasts can earn revenue, making AiDocker a mutually beneficial
         ecosystem.
+      </div> */}
+      <div className="self-stretch text-white text-opacity-70 text-center text-[1.15rem] font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+        AI Enthusiasts can earn revenue, making AiDocker a mutually beneficial
       </div>
 
       <div className=" self-stretch mt-12 w-full">
-        <div className="gap-5 flex  justify-center max-md:flex-col px-5  max-md:items-stretch max-md:gap-0">
+        <div className="gap-5 flex  justify-center max-md:flex-col px-0  max-md:items-stretch max-md:gap-0">
           <div className=" bg-white mb-6 md:mb-0 bg-opacity-10 rounded-2xl flex-col items-stretch w-fit max-md:w-full max-md:ml-0">
-            <span className="items-start mb-0 !h-full border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex flex-col w-full px-8 py-4 rounded-2xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
+            <span className="items-start mb-0 !h-full border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex flex-col w-full !px-3 sm:!px-8 !py-2 sm:!py-4  rounded-2xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="self-stretch h-auto text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
                 Payout
               </div>
@@ -149,7 +155,7 @@ const Earning = () => {
                     <p className="text-white text-opacity-50 text-sm">
                       NextPayout
                     </p>
-                    <p className="text-white text-3xl">
+                    <p className="text-white text-2xl  sm:text-3xl">
                       {isInView ? (
                         <NumberAnimation
                           endNumber={5.98}
@@ -205,105 +211,32 @@ const Earning = () => {
               </div>
             </span>
           </div>
-          <span className="  card bg-white bg-opacity-10  items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex max-w-[543px] flex-col px-8 py-4 rounded-2xl border-solid max-md:px-5">
+          <span className="  card bg-white bg-opacity-10  items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex max-w-[543px] flex-col !px-3 sm:!px-8 !py-3 sm:!py-4 rounded-2xl border-solid max-md:px-5">
             <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
               Earning
             </div>
             <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-2 max-md:max-w-full">
               Our protocol will have high end GPus to average{" "}
             </div>
-            <div className="justify-center mt-6 max-md:max-w-full">
-              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-                  <div className="justify-center items-center self-stretch border backdrop-blur-[34px] flex flex-col aspect-square w-full rounded-2xl border-solid border-white border-opacity-10 max-md:mt-5">
+            <div className="justify-center mt-0 sm:mt-6 max-md:max-w-full">
+              <div className="gap-5 sm:flex grid grid-cols-2   max-md:flex-col max-md:items-stretch max-md:gap-0">
+                <div className="flex flex-col items-stretch w-6/12  max-md:w-full max-md:ml-0">
+                  <div className="justify-center max-h-[200px] sm:max-h-auto items-center self-stretch border backdrop-blur-[34px] flex flex-col aspect-square w-full rounded-2xl border-solid border-white border-opacity-10 max-md:mt-5">
                     <div
-                      // className="h-full w-full"
-                      // style={{
-                      //   backgroundImage: "url('bgcurr.png')",
-                      //   backgroundSize: "cover",
-                      //   backgroundPosition: "center",
-                      //   width: "100%",
-                      //   height: "140px",
-                      //   position: "relative",
-                      //   display: "flex",
-                      //   alignItems: "center",
-                      //   borderRadius: "15px",
-                      //   justifyContent: "space-between",
-                      // }}
-                      className="h-full w-full bg-center bg-cover relative flex items-center justify-between rounded-lg"
+                      className="h-full max-h-[200px] sm:max-h-full w-full bg-center bg-cover relative flex items-center justify-between rounded-lg"
                       style={{ backgroundImage: "url('bgcurr.png')" }}
                     >
-                      {/* <img
-                        src="flower2.png"
-                        style={{
-                          width: "140px",
-                          height: "190px",
-                          zIndex: "1",
-                          paddingBottom: "80px",
-                          paddingLeft: "15px",
-                          paddingTop: "2px",
-                        }}
-                      /> */}
                       <img
                         src="flower2.png"
-                        className="w-full sm:-mt-10 mt-0 h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
+                        className="w-[60%] mx-auto sm:max-h-auto sm:-mt-10 mt-0 h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
                       />
-                      {/* <div
-                        style={{
-                          position: "absolute",
-                          top: "80px",
-                          left: "35px",
-                          textAlign: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        <span>
-                          <p
-                            style={{
-                              fontSize: "10px",
-                              margin: "0",
-                              color: "rgba(255, 255, 255, 0.5)",
-                            }}
-                          >
-                            Unpaid $AID
-                          </p>
-
-                          <p
-                            style={{
-                              fontSize: "18px",
-                              margin: "0",
-                              color: "white",
-                            }}
-                          >
-                            {isInView ? (
-                              <NumberAnimation
-                                endNumber={12.98}
-                                duration={2000}
-                                decimalPlaces={2}
-                              />
-                            ) : (
-                              "12.98"
-                            )}{" "}
-                            $AID
-                          </p>
-                          <p
-                            style={{
-                              fontSize: "10px",
-                              margin: "0",
-                              color: "rgba(255, 255, 255, 0.5)",
-                            }}
-                          >
-                            -24.65 USD
-                          </p>
-                        </span>
-                      </div> */}
-                      <div className="absolute w-full bottom-4 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                      <div className="absolute w-full bottom-0 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
                         <span>
                           <p className="text-xs m-0 text-white text-opacity-50">
                             Unpaid $AID
                           </p>
 
-                          <p className="text-xl m-0 text-white">
+                          <p className="sm:text-xl text-[1rem] m-0 text-white">
                             {isInView ? (
                               <NumberAnimation
                                 endNumber={12.98}
@@ -326,91 +259,21 @@ const Earning = () => {
                 <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
                   <div className="justify-center items-center self-stretch border backdrop-blur-[34px] flex flex-col aspect-square w-full rounded-2xl border-solid border-white border-opacity-10 max-md:mt-5">
                     <div
-                      // style={{
-                      //   backgroundImage: "url('bgface.png')",
-                      //   backgroundPosition: "center",
-                      //   width: "100%",
-                      //   height: "140px",
-                      //   position: "relative",
-                      //   display: "flex",
-                      //   alignItems: "center",
-                      //   borderRadius: "15px",
-                      //   justifyContent: "space-between",
-                      // }}
                       className="h-full w-full bg-center bg-cover relative flex items-center justify-between rounded-lg"
                       style={{ backgroundImage: "url('bgface.png')" }}
                     >
-                      {/* <img
-                        src="facey.png"
-                        style={{
-                          width: "130px",
-                          height: "190px",
-                          zIndex: "1",
-                          paddingBottom: "80px",
-                          paddingLeft: "15px",
-                          paddingTop: "2px",
-                        }}
-                      /> */}
                       <img
                         src="facey.png"
-                        className="w-full sm:-mt-10 mt-0  h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
+                        className="w-[60%] mx-auto sm:-mt-10 mt-0  h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
                       />
-                      {/* <div
-                        style={{
-                          position: "absolute",
-                          top: "80px",
-                          left: "35px",
-                          color: "white",
-                          textAlign: "center",
-                          alignItems: "center",
-                        }}
-                      >
+
+                      <div className="absolute w-full bottom-0 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
                         <span>
-                          <p
-                            style={{
-                              fontSize: "10px",
-                              margin: "0",
-                              color: "rgba(255, 255, 255, 0.5)",
-                            }}
-                          >
-                            Expected Earning
-                          </p>
-                          <p
-                            style={{
-                              fontSize: "18px",
-                              margin: "0",
-                              color: "white",
-                            }}
-                          >
-                            {isInView ? (
-                              <NumberAnimation
-                                endNumber={50.98}
-                                duration={2000}
-                                decimalPlaces={2}
-                              />
-                            ) : (
-                              "50.98"
-                            )}{" "}
-                            $AID
-                          </p>
-                          <p
-                            style={{
-                              fontSize: "10px",
-                              margin: "0",
-                              color: "rgba(255, 255, 255, 0.5)",
-                            }}
-                          >
-                            -100.65 USD
-                          </p>
-                        </span>
-                      </div> */}
-                      <div className="absolute w-full bottom-4 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-                        <span>
-                          <p className="text-xs m-0 text-opacity-50">
+                          <p className=" text-xs m-0 text-opacity-50">
                             Expected Earning
                           </p>
 
-                          <p className="text-xl m-0">
+                          <p className="sm:text-xl text-[1rem]  m-0">
                             {isInView ? (
                               <NumberAnimation
                                 endNumber={50.98}
@@ -435,7 +298,7 @@ const Earning = () => {
           </span>
         </div>
       </div>
-      <div className="justify-center self-stretch w-full gap-5 mt-5 px-5 max-md:max-w-full">
+      <div className="justify-center self-stretch w-full gap-5 mt-5 px-0 sm:px-5 max-md:max-w-full">
         <div className=" flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div
             className="card mb-5 sm:mb-0 flex bg-white bg-opacity-10 rounded-2xl flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0"
@@ -460,6 +323,7 @@ const Earning = () => {
               >
                 <img
                   src="golla.png"
+                  className="mx-auto"
                   style={{
                     position: "absolute",
                     width: "260px",
@@ -473,6 +337,7 @@ const Earning = () => {
                   }}
                 />
                 <img
+                  className="mx-auto"
                   src="golla2.png"
                   style={{
                     position: "absolute",
@@ -559,7 +424,7 @@ const Earning = () => {
                   <div className="text-emerald-300 text-center text-xs font-medium leading-4 whitespace-nowrap">
                     Download ▼
                   </div>
-                  <div className="text-emerald-300 text-center text-2xl font-bold leading-7 whitespace-nowrap mt-3">
+                  <div className="text-emerald-300 text-center text-xl sm:text-2xl font-bold leading-7 whitespace-nowrap mt-1">
                     {isInView ? (
                       <NumberAnimation
                         endNumber={10}
@@ -576,7 +441,7 @@ const Earning = () => {
                   <div className="text-red-400 text-center text-xs font-medium leading-4 whitespace-nowrap">
                     Download ▼
                   </div>
-                  <div className="text-red-400 text-center text-2xl font-bold leading-7 whitespace-nowrap mt-3">
+                  <div className="text-red-400 text-center text-xl sm:text-2xl font-bold leading-7 whitespace-nowrap mt-1">
                     {isInView ? (
                       <NumberAnimation
                         endNumber={10}

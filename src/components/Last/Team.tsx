@@ -6,7 +6,7 @@ const Team = () => {
       {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Our Team
       </div> */}
-      <div className="self-stretch mt-32 mb-4 heading-gradient text-white text-center text-4xl font-bold leading-[56px] tracking-tighter w-full max-md:max-w-full">
+      <div className="self-stretch mt-16 sm:mt-32 mb-4 heading-gradient text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter w-full max-md:max-w-full">
         Meet the Founding Team
       </div>
       {/* <div className="self-stretch text-white text-xl font-medium leading-8 tracking-tighter w-full mt-8 max-md:max-w-full">

@@ -40,7 +40,7 @@ const Faq = () => {
       {/* <div className="text-xs font-medium leading-4 heading-gradient tracking-widest uppercase self-center whitespace-nowrap mt-32 max-md:mt-10">
         FAQ
       </div> */}
-      <div className="text-white text-center text-4xl heading-gradient font-bold leading-[56px] tracking-tighter mt-16 mb-10 max-md:max-w-full">
+      <div className="text-white text-center text-3xl sm:text-4xl heading-gradient font-bold leading-10 sm:leading-[56px] tracking-tighter mt-10 sm:mt-16 mb-10 max-md:max-w-full">
         Frequently Asked Questions
       </div>
 

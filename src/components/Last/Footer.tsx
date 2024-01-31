@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="items-center flex flex-col justify-center  py-12 pb-0 max-md:px-5">
+    <div className="items-center flex flex-col justify-center py-4  sm:py-12 pb-0 px-0 sm:px-5">
       <div className="flex w-full max-w-[1200px] flex-col items-stretch mt-16 max-md:max-w-full max-md:mt-10">
         <div className="justify-between max-md:max-w-full">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
             <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
-              <span className="flex grow flex-col items-start max-md:max-w-full max-md:mt-10">
+              <span className="flex grow flex-col items-start max-md:max-w-full mt-2">
                 <span className="items-stretch flex gap-2">
                   <img
                     loading="lazy"
@@ -16,7 +16,7 @@ const Footer = () => {
                     aria-label="Logo"
                   />
                 </span>
-                <div className="text-white text-opacity-70 text-xl font-[450] leading-8 tracking-tighter self-stretch mt-5 max-md:max-w-full">
+                <div className="text-white text-opacity-70 text-[1.15rem] sm:text-xl font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tighter self-stretch mt-5 max-md:max-w-full">
                   To get started, sign up on our platform. You'll gain access to
                   our resources, including datasets and GPU power, and can begin
                   developing and deploying your AI models.

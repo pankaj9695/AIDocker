@@ -14,16 +14,16 @@ const Partnership = () => {
     "/Vectorpart4.png",
   ];
   return (
-    <span className="justify-center items-center flex flex-col mt-20 p-8 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5">
+    <span className="justify-center items-center flex flex-col !mt-10 sm:!mt-20 px-0 py-4 sm:p-8 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5">
       {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient whitespace-nowrap">
         Partnership
       </div> */}
-      <div className="text-white text-center text-4xl heading-gradient font-bold leading-[56px] tracking-tighter  max-md:max-w-full">
+      <div className="text-white text-center text-3xl sm:text-4xl heading-gradient font-bold leading-[56px] tracking-tighter  max-md:max-w-full">
         Partnership
       </div>
-      <div className="justify-center items-center self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:px-5">
+      <div className="justify-center items-center self-stretch flex flex-col mt-4 !px-0 sm:!px-16 max-md:max-w-full max-md:px-5">
         <div className="flex sm:w-[700px] max-w-full flex-col items-stretch">
-          <div className="flex flex-wrap justify-between sm:grid sm:grid-cols-2 md:grid-cols-4 gap-5 p-4 px-0 sm:px-4 items-start max-md:max-w-full max-md:flex-wrap">
+          <div className="flex flex-wrap justify-center sm:grid sm:grid-cols-2 md:grid-cols-4 gap-5 p-4 px-0 sm:px-4 items-start max-md:max-w-full max-md:flex-wrap">
             {images.map((image, index) => (
               <motion.span
                 key={index}

@@ -69,7 +69,10 @@ const Hero = () => {
                 >
                   {words[0]}
                 </motion.span> */}
-                <div style={{ height: "72px", overflow: "hidden" }}>
+                <div
+                  className="sm:h-[72px] h-[50px]"
+                  style={{ overflow: "hidden" }}
+                >
                   <AnimatePresence mode="wait">
                     <motion.div
                       key={current}
@@ -77,7 +80,7 @@ const Hero = () => {
                       animate={{ y: "0%" }}
                       exit={{ y: "100%" }}
                       transition={{ duration: 0.5 }}
-                      className="font-medium text-gradient leading-[72.4020767211914px]"
+                      className="font-medium text-gradient leading-[50.4020767211914px] sm:leading-[75.4020767211914px]"
                     >
                       {words[current]}
                     </motion.div>
@@ -86,7 +89,7 @@ const Hero = () => {
               </motion.h1>
               <motion.p
                 variants={textVariants}
-                className="self-stretch text-white text-opacity-70 text-[1.15rem] font-[450] leading-8 tracking-tighter mt-5 max-md:max-w-full"
+                className="self-stretch text-white text-opacity-70 text-[1.15rem] font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tight mt-5 max-md:max-w-full"
               >
                 From data-driven enthusiasts to seasoned developers, AiDocker is
                 the go-to destination for creating, training, and deploying AI

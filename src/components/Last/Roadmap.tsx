@@ -122,10 +122,10 @@ const Roadmap = () => {
       {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Roadmap
       </div> */}
-      <div className="self-stretch text-white heading-gradient mt-32 text-center text-4xl font-bold leading-[56px] tracking-tighter w-full  max-md:max-w-full">
+      <div className="self-stretch text-white heading-gradient mt-12 sm:mt-32 text-center text-3xl sm:text-4xl font-bold leading-10 sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
         Mapping the Future of AiDocker
       </div>
-      <div className="text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="text-white text-opacity-70 text-center text-[1.15rem] sm:text-xl leading-6 sm:leading-8 font-[450]  tracking-tighter w-full mt-1 max-md:max-w-full">
         Our roadmap is a testament to our commitment to growth and innovation.
       </div>
       {/* <img
@@ -133,7 +133,7 @@ const Roadmap = () => {
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2ee8de55f65af4fed3fa473b19f2fe1645155816960469750283d27344b53df1?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
         className="aspect-[134.44] object-contain object-center w-full items-start overflow-hidden self-stretch mt-16 max-md:max-w-full max-md:mt-10"
       /> */}
-      <div className="self-stretch w-full mt-16 px-5 max-md:max-w-full">
+      <div className="self-stretch w-full mt-16 px-0 sm:px-5 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col mb-5 sm:mb-0 items-stretch w-[28%] max-md:w-full max-md:ml-0">
             <span className="items-stretch blur-background-orange text-gray-400 border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex w-full grow flex-col mx-auto p-6 rounded-3xl border-[3px] border-solid max-md:mt-5 max-md:px-5">
@@ -157,7 +157,7 @@ const Roadmap = () => {
                   {/* <div className="text-white text-opacity-50 font-medium leading-5 tracking-normal whitespace-nowrap">
                     {item.title}
                   </div> */}
-                  <div className="text-white text-opacity-60 text-base font-[450] leading-6 tracking-normal mt-3">
+                  <div className="text-white text-opacity-60 text-base font-[450] leading-6 tracking-normal mt-1 sm:mt-3">
                     {item.title}
                   </div>
                   {/* <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3 mb-2">
@@ -196,13 +196,13 @@ const Roadmap = () => {
               <div className="mt-6 max-md:max-w-full">
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                   <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-                    <span className="items-stretch flex grow flex-col max-md:mt-6">
+                    <span className="items-stretch !mt-0 flex grow flex-col max-md:mt-6">
                       <div className="text-white text-opacity-50 text-xs font-medium leading-5 tracking-normal whitespace-nowrap">
                         Plase 1.0
                       </div>
                       {roadMapDataQ124P1.map((item, index) => (
                         <div key={index}>
-                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-1 sm:mt-3">
                             {item.title}
                           </div>
                           {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
@@ -219,7 +219,7 @@ const Roadmap = () => {
                       </div>
                       {roadMapDataQ124P2.map((item, index) => (
                         <div key={index}>
-                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                          <div className="text-white text-base font-[450] leading-6 tracking-normal mt-1 sm:mt-3">
                             {item.title}
                           </div>
                           {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
@@ -249,7 +249,7 @@ const Roadmap = () => {
               <div className="bg-white bg-opacity-10 self-stretch shrink-0 h-px mt-6" />
               {roadMapDataQ124P3.map((item, index) => (
                 <div key={index}>
-                  <div className="text-white text-base font-[450] leading-6 tracking-normal mt-3">
+                  <div className="text-white text-base font-[450] leading-6 tracking-normal mt-1 sm:mt-3">
                     {item.title}
                   </div>
                   {/* <div className="text-base font-[450] leading-6 tracking-normal bg-clip-text bg-[linear-gradient(155deg,rgba(255,255,255,0.40)_44.35%,rgba(182,205,255,0.40)_99.75%)] mt-3">
