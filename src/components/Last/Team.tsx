@@ -2,7 +2,10 @@ import React from "react";
 
 const Team = () => {
   return (
-    <span className="justify-center items-center self-stretch flex flex-col">
+    <section
+      id="team"
+      className="justify-center items-center self-stretch flex flex-col"
+    >
       {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Our Team
       </div> */}
@@ -161,7 +164,7 @@ const Team = () => {
           </div>
         </div>
       </div> */}
-    </span>
+    </section>
   );
 };
 

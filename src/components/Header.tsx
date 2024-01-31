@@ -12,6 +12,7 @@ const Header = () => {
   return (
     <>
       <motion.header
+        id="header"
         variants={headerVariants}
         initial="initial"
         animate="animate"
@@ -32,28 +33,28 @@ const Header = () => {
           </span>
           <span className="items-stretch flex gap-5 p-2.5 self-start">
             <a
-              href="#"
+              href="/#header"
               className="text-white text-sm font-[450] leading-5 grow whitespace-nowrap"
               aria-label="Home"
             >
               Home
             </a>
             <a
-              href="#"
+              href="/#about"
               className="text-white text-sm font-[450] leading-5"
               aria-label="About us"
             >
-              About us
+              About
             </a>
             <a
-              href="#"
+              href="/#roadmap"
               className="text-white text-sm font-[450] leading-5"
               aria-label="Roadmap"
             >
               Roadmap
             </a>
             <a
-              href="#"
+              href="/#team"
               className="text-white text-sm font-[450] leading-5 grow whitespace-nowrap"
               aria-label="Team"
             >

@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Chart1 from "@/components/Chart1";
 import Chart2 from "@/components/Chart2";
+import Image from "next/image";
 
 const cardVariants = {
   hidden: { opacity: 0, x: "-100vw" },
@@ -17,6 +18,11 @@ const cardVariants = {
 
 const Chart = () => {
   const ref = useRef(null);
+
+  const [isMobile, setIsMobile] = React.useState(true);
+  React.useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+  }, []);
 
   return (
     <span className="justify-center items-stretch self-stretch flex mt-6 sm:mt-32 flex-col">
@@ -41,7 +47,18 @@ const Chart = () => {
               </div>
 
               <div className="mt-4">
-                <Chart1 />
+                {!isMobile ? (
+                  <Chart1 />
+                ) : (
+                  <div className="w-full">
+                    <Image
+                      src={"/chart1.svg"}
+                      height={120}
+                      width={400}
+                      alt="chart"
+                    />
+                  </div>
+                )}
               </div>
             </span>
           </div>
@@ -55,7 +72,16 @@ const Chart = () => {
               </div>
 
               <div className="mt-4">
-                <Chart2 />
+                {!isMobile ? (
+                  <Chart2 />
+                ) : (
+                  <Image
+                    src={"/chart2.svg"}
+                    height={120}
+                    width={400}
+                    alt="chart"
+                  />
+                )}
               </div>
             </span>
           </div>

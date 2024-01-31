@@ -29,28 +29,47 @@ const MobileNav = ({
           />
         </button>
       </div>
-      <nav style={{ textAlign: "left" }}>
-        <h1 className="text-white text-3xl font-bold leading-9 tracking-normal self-center mt-16">
+      <nav
+        className="flex justify-center flex-col gap-4 items-stretch w-full max-w-full px-5 py-3.5 rounded-[48px] max-md:flex-wrap"
+        style={{ textAlign: "left" }}
+      >
+        <a
+          onClick={() => setShowMenu(false)}
+          href="/#header"
+          className="text-white text-3xl font-bold leading-9 tracking-normal self-center mt-16"
+        >
           Home
-        </h1>
-        <h1 className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6">
-          About us
-        </h1>
-        <h1 className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6">
+        </a>
+        <a
+          href="/#about"
+          onClick={() => setShowMenu(false)}
+          className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6"
+        >
+          About
+        </a>
+        <a
+          href="/#roadmap"
+          onClick={() => setShowMenu(false)}
+          className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6"
+        >
           Roadmap
-        </h1>
-        <h1 className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6">
+        </a>
+        <a
+          href="/#team"
+          onClick={() => setShowMenu(false)}
+          className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6"
+        >
           Team
-        </h1>
+        </a>
       </nav>
-      <form>
+      <div>
         <button
-          className="text-neutral-900 text-base font-medium leading-5 tracking-normal justify-center items-stretch shadow-sm bg-white self-center w-[247px] max-w-full mt-80 mb-3.5 px-3 py-2.5 rounded-[30px]"
+          className="text-neutral-900 block text-base  font-medium leading-5 tracking-normal justify-center items-stretch shadow-sm bg-white self-center w-[247px] max-w-full mt-80 mb-3.5 px-3 py-2.5 rounded-[30px]"
           aria-label="Join Whitelist"
         >
           Join Whitelist
         </button>
-      </form>
+      </div>
     </header>
   );
 };

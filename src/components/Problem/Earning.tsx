@@ -305,7 +305,7 @@ const Earning = () => {
             style={{ backgroundImage: "url('repscorebg.png')" }}
           >
             <span className="justify-center  h-fit items-stretch border border-[color:var(--Outline-1,rgba(255,255,255,0.08))] backdrop-blur-[30px] flex grow flex-col w-full px-8 py-2 rounded-2xl border-solid max-md:mt-5 max-md:px-5">
-              <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal whitespace-nowrap">
+              <div className="text-white text-opacity-90 text-2xl font-extrabold leading-7 tracking-normal whitespace-nowrap">
                 Reputation Score
               </div>
 

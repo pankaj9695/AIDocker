@@ -118,7 +118,7 @@ const roadMapDataQ124P3 = [
 ];
 const Roadmap = () => {
   return (
-    <section className="items-start flex flex-col">
+    <section id="roadmap" className="items-start flex flex-col">
       {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Roadmap
       </div> */}

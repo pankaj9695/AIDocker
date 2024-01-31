@@ -10,7 +10,7 @@ const headerVariants = {
 
 const Solution = () => {
   return (
-    <section className="items-start self-stretch flex flex-col">
+    <section id="about" className="items-start self-stretch flex flex-col">
       <div className="self-stretch leading-[44px] heading-gradient mt-16 sm:mt-32 text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
         Overcoming Barriers in AI Development
       </div>
