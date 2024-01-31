@@ -14,7 +14,7 @@ const Revenue = () => {
     // <div className="flex max-w-[941px] mx-auto justify-center flex-col items-stretch">
 
     // </div>
-    <span className="justify-center items-center self-stretch border mt-16 backdrop-blur-[6px] flex flex-col px-12 py-12 bg-white bg-opacity-10 rounded-3xl border-solid border-white border-opacity-20 max-md:px-5">
+    <span className="items-start flex flex-col">
       {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase  whitespace-nowrap mt-3.5">
         <span className="heading-gradient">Revenue Stream</span>
       </div> */}
@@ -33,7 +33,10 @@ const Revenue = () => {
       >
         {/* <img src="/Group 1597877665ai-docker.png" alt="" /> */}
         {/* <OctopusSvg /> */}
-        <div style={{ borderRadius: "20px", overflow: "hidden" }}>
+        <div
+          className="sm:h-[70vh] h-auto"
+          style={{ borderRadius: "20px", overflow: "hidden" }}
+        >
           <video
             style={{ height: "100%", width: "100%", objectFit: "contain" }}
             autoPlay

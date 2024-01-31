@@ -135,7 +135,7 @@ const Roadmap = () => {
       /> */}
       <div className="self-stretch w-full mt-16 px-5 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[28%] max-md:w-full max-md:ml-0">
+          <div className="flex flex-col mb-5 sm:mb-0 items-stretch w-[28%] max-md:w-full max-md:ml-0">
             <span className="items-stretch blur-background-orange text-gray-400 border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex w-full grow flex-col mx-auto p-6 rounded-3xl border-[3px] border-solid max-md:mt-5 max-md:px-5">
               <div className="justify-between items-stretch flex gap-5">
                 <span className="items-stretch flex justify-between gap-5">
@@ -177,8 +177,8 @@ const Roadmap = () => {
               </div> */}
             </span>
           </div>
-          <div className="flex flex-col blur-background-white text-gray-400 items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-            <div className="items-stretch border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex grow flex-col w-full px-6 py-7 rounded-3xl border-[3px] border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
+          <div className="flex flex-col !mb-5 sm:!mb-0 blur-background-white text-gray-400 items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+            <div className="items-stretch  border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex grow flex-col w-full px-6 py-7 rounded-3xl border-[3px] border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="justify-between items-stretch flex w-full gap-5 max-md:max-w-full max-md:flex-wrap">
                 <span className="items-stretch flex justify-between gap-5">
                   <div className="text-white text-opacity-70 text-xl font-medium leading-8 tracking-tighter">
@@ -233,7 +233,7 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col blur-background-white text-gray-400 items-stretch w-[22%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="flex flex-col  blur-background-white text-gray-400 items-stretch w-[22%] ml-5 max-md:w-full max-md:ml-0">
             <span className="items-start self-stretch border-[color:var(--stroke,rgba(255,255,255,0.04))] backdrop-blur-md flex w-full grow flex-col mx-auto pt-6 pb-12 px-6 rounded-3xl border-[3px] border-solid max-md:mt-5 max-md:px-5">
               <span className="items-center flex justify-between gap-5 self-start">
                 <div className="text-white text-opacity-70 text-xl font-medium leading-8 tracking-tighter self-stretch">

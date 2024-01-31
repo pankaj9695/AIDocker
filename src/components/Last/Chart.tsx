@@ -62,13 +62,7 @@ const Chart = () => {
 
       <div className="self-center w-full max-w-[1036px] mt-8 rounded-2xl max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <motion.div
-            variants={cardVariants}
-            initial="hidden"
-            animate="visible"
-            custom={0} // 0 delay for the first card
-            className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
-          >
+          <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
             <span className="items-stretch bg-[#181818] border border-[color:var(--Outline-1,rgba(255,255,255,0.04))] backdrop-blur-[18px] flex grow flex-col w-full p-6 rounded-3xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
                 Enterprice value ( Trillion, USD)
@@ -86,14 +80,8 @@ const Chart = () => {
                 <Chart1 />
               </div>
             </span>
-          </motion.div>
-          <motion.div
-            variants={cardVariants}
-            initial="hidden"
-            animate="visible"
-            custom={1} // 0.5s delay for the second card
-            className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
-          >
+          </div>
+          <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
             <span className="items-stretch bg-[#181818] border border-[color:var(--Outline-1,rgba(255,255,255,0.04))] backdrop-blur-[18px] flex grow flex-col w-full p-6 rounded-3xl border-solid max-md:max-w-full max-md:mt-5 max-md:px-5">
               <div className="text-white text-opacity-90 text-2xl font-bold leading-7 tracking-normal max-md:max-w-full">
                 Project hardware spend driven by AI
@@ -106,7 +94,7 @@ const Chart = () => {
                 <Chart2 />
               </div>
             </span>
-          </motion.div>
+          </div>
         </div>
       </div>
     </span>

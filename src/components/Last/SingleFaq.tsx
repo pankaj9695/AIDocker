@@ -31,7 +31,7 @@ const SingleFaq = (faq: FaqItem) => {
             />
           </button>
         )}
-        <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow whitespace-nowrap">
+        <div className="text-white text-lg font-bold leading-7 tracking-tight self-stretch grow ">
           {faq.question}
         </div>
       </span>

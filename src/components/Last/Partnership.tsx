@@ -22,11 +22,12 @@ const Partnership = () => {
         Partnership
       </div>
       <div className="justify-center items-center self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:px-5">
-        <div className="flex w-[700px] max-w-full flex-col items-stretch">
-          <div className="grid grid-cols-4 gap-5 p-4 items-start max-md:max-w-full max-md:flex-wrap">
-            {images.map((image) => (
+        <div className="flex sm:w-[700px] max-w-full flex-col items-stretch">
+          <div className="flex flex-wrap justify-between sm:grid sm:grid-cols-2 md:grid-cols-4 gap-5 p-4 px-0 sm:px-4 items-start max-md:max-w-full max-md:flex-wrap">
+            {images.map((image, index) => (
               <motion.span
-                className="p-6"
+                key={index}
+                className="p-0 sm:p-6"
                 whileHover={{
                   backgroundColor: "#21D4FD",
                   backgroundImage:
@@ -35,7 +36,6 @@ const Partnership = () => {
                   borderWidth: "1px",
                   borderStyle: "solid",
                 }}
-                // transition={{ duration: 0.5 }}
                 style={{ borderRadius: "10px" }}
               >
                 <Image src={image} height={120} width={120} alt="logo" />

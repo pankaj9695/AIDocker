@@ -5,6 +5,7 @@ import Last from "@/components/Last";
 // import StyledComponent from "@/components/StyledComponent";
 import Cursor from "@/components/Cursor";
 import EarthSvg from "@/components/EarthSvg";
+import ScoreSvg from "@/components/ScoreSvg";
 
 export default function Home() {
   return (
@@ -14,10 +15,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <Last />
-      {/* <EarthSvg /> */}
-      {/* <SvgCenter /> */}
-      {/* <SvgComponent /> */}
-      {/* <StyledComponent /> */}
+      {/* <ScoreSvg /> */}
     </main>
   );
 }
