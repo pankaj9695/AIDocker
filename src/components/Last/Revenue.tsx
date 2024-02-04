@@ -15,10 +15,11 @@ const Revenue = () => {
 
     // </div>
     <span className="items-start flex flex-col">
-      {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase  whitespace-nowrap mt-3.5">
-        <span className="heading-gradient">Revenue Stream</span>
-      </div> */}
-      <div className="self-stretch heading-gradient text-white mb-1 text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter mt-1.5 max-md:max-w-full">
+      
+      <div className="self-stretch  text-white mb-1 text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter mt-1.5 max-md:max-w-full">
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">Architecture</span>
+            </div>
         AiDocker's Ecosystem: A Symphony of Features
       </div>
 

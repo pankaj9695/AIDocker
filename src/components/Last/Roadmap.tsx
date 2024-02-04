@@ -122,7 +122,11 @@ const Roadmap = () => {
       {/* <div className="text-xl font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Roadmap
       </div> */}
-      <div className="self-stretch text-white heading-gradient mt-12 sm:mt-32 text-center text-3xl sm:text-4xl font-bold leading-10 sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
+      
+      <div className="self-stretch text-white  mt-12 sm:mt-32 text-center text-3xl sm:text-4xl font-bold leading-10 sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">Roadmap</span>
+            </div>
         Mapping the Future of AiDocker
       </div>
       <div className="text-white text-opacity-70 text-center text-[1.15rem] sm:text-xl leading-6 sm:leading-8 font-[450]  tracking-tighter w-full mt-1 max-md:max-w-full">

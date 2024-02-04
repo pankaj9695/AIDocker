@@ -9,7 +9,10 @@ const Team = () => {
       {/* <div className="text-xs font-medium leading-4 tracking-widest uppercase heading-gradient self-center whitespace-nowrap mt-32 max-md:mt-10">
         Our Team
       </div> */}
-      <div className="self-stretch mt-16 sm:mt-32 mb-4 heading-gradient text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter w-full max-md:max-w-full">
+      <div className="self-stretch mt-16 sm:mt-32 mb-4  text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter w-full max-md:max-w-full">
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">Team</span>
+            </div>
         Meet the Founding Team
       </div>
       {/* <div className="self-stretch text-white text-xl font-medium leading-8 tracking-tighter w-full mt-8 max-md:max-w-full">
@@ -21,8 +24,8 @@ const Team = () => {
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img
                 loading="lazy"
-                src="profile1.jpg"
-                className="aspect-[1.14] object-contain object-center w-full overflow-hidden"
+                src="saurav.png"
+                className="aspect-[1.14] object-contain object-center w-full overflow-hidden "
               />
               <span className="items-stretch flex flex-col p-4">
                 <div className="text-white text-xl font-medium leading-8 tracking-tighter whitespace-nowrap">
@@ -38,7 +41,7 @@ const Team = () => {
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 border-r-[#3d3d3d] border-r-opacity-10 border-r border-solid">
               <img
                 loading="lazy"
-                src="profile2.jpg"
+                src="ashok.png"
                 className="aspect-[1.14] object-contain object-center w-full overflow-hidden"
               />
               <span className="items-stretch flex flex-col p-4">
@@ -55,7 +58,7 @@ const Team = () => {
             <div className="items-stretch backdrop-blur-md flex grow flex-col px-3 py-2 ">
               <img
                 loading="lazy"
-                src="profile3.jpg"
+                src="xinthi.png"
                 className="aspect-[1.14] object-contain object-center w-full overflow-hidden"
               />
               <span className="items-stretch flex flex-col p-4">

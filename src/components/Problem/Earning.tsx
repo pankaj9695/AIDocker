@@ -40,7 +40,10 @@ const Earning = () => {
       {/* <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
         Monetize Your AI Innovations and Contributions
       </div> */}
-      <div className="text-white heading-gradient font-bold text-3xl sm:text-4xl text-center sm:text-start sm:leading-[52px] tracking-tighter mt-2 pb-1 sm:mt-3.5 max-md:max-w-full">
+                  <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">Revenue Stream</span>
+            </div>
+      <div className="text-white  font-bold text-3xl sm:text-4xl text-center sm:text-start sm:leading-[52px] tracking-tighter mt-2 pb-1 sm:mt-3.5 max-md:max-w-full">
         Monetize Your AI Innovations and Contributions
       </div>
       {/* <div className="self-stretch text-white text-opacity-70 text-center text-xl font-[450] leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
@@ -228,7 +231,7 @@ const Earning = () => {
                     >
                       <img
                         src="flower2.png"
-                        className="w-[60%] mx-auto sm:max-h-auto sm:-mt-10 mt-0 h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
+                        className="w-[80%] mx-auto sm:max-h-auto sm:-mt-10 mt-0 h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-[10px] pr-[15px]"
                       />
                       <div className="absolute w-full bottom-0 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
                         <span>
@@ -264,12 +267,12 @@ const Earning = () => {
                     >
                       <img
                         src="facey.png"
-                        className="w-[60%] mx-auto sm:-mt-10 mt-0  h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-0.5"
+                        className="w-[80%] mx-auto sm:-mt-10 mt-0  h-auto md:w-30 md:h-42 z-10 pb-20 pl-4 pt-[10px] pr-[15px]"
                       />
 
                       <div className="absolute w-full bottom-0 sm:bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
                         <span>
-                          <p className=" text-xs m-0 text-opacity-50">
+                          <p className="text-xs m-0 text-white text-opacity-50">
                             Expected Earning
                           </p>
 
@@ -285,7 +288,7 @@ const Earning = () => {
                             )}{" "}
                             $AID
                           </p>
-                          <p className="text-xs m-0 text-opacity-50">
+                          <p className="text-xs m-0 text-white text-opacity-50">
                             -100.65 USD
                           </p>
                         </span>
@@ -326,13 +329,13 @@ const Earning = () => {
                   className="mx-auto"
                   style={{
                     position: "absolute",
-                    width: "260px",
+                    width: "290px",
                     height: "90%",
                     zIndex: "2",
 
-                    paddingBottom: "48px",
-                    paddingLeft: "188px",
-                    paddingTop: "58px",
+                    paddingBottom: "45px",
+                    paddingLeft: "215px",
+                    paddingTop: "60px",
                     paddingRight: "50px",
                   }}
                 />
@@ -341,12 +344,12 @@ const Earning = () => {
                   src="golla2.png"
                   style={{
                     position: "absolute",
-                    width: "220px",
+                    width: "250px",
                     height: "300px",
                     zIndex: "1",
 
                     paddingBottom: "0px",
-                    paddingLeft: "30px",
+                    paddingLeft: "50px",
                     paddingTop: "100px",
                   }}
                 />
@@ -354,7 +357,7 @@ const Earning = () => {
                   style={{
                     position: "absolute",
                     top: "70px",
-                    left: "100px",
+                    left: "120px",
                     color: "white",
                     textAlign: "center",
                     alignItems: "center",
@@ -381,7 +384,7 @@ const Earning = () => {
                   style={{
                     position: "absolute",
                     top: "115px",
-                    left: "75px",
+                    left: "100px",
                     display: "flex",
                     justifyContent: "space-between",
                     width: "100px",

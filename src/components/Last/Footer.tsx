@@ -31,7 +31,7 @@ const Footer = () => {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f5cd551d0b7705b9e77aed1229678406ab3bb664ec986eefb3f0d0e31805104?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                     className="aspect-square object-contain object-center w-[25px] overflow-hidden shrink-0 max-w-full"
                   />
-                  <div className="text-white gradient-hover text-center text-2xl font-[450] leading-9 tracking-tight self-center my-auto">
+                  <div className="text-white  text-center text-2xl font-[450] leading-9 tracking-tight self-center my-auto">
                     Linkedin
                   </div>
                 </span>
@@ -41,7 +41,7 @@ const Footer = () => {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1d952e339bcfc5f13d22317405db05d50fcde28f12b06d64080216eb74bd99d?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                     className="aspect-[1.04] object-contain object-center w-[26px] overflow-hidden shrink-0 max-w-full"
                   />
-                  <div className="text-white gradient-hover text-center text-2xl font-[450] leading-9 tracking-tight self-center grow whitespace-nowrap my-auto">
+                  <div className="text-white  text-center text-2xl font-[450] leading-9 tracking-tight self-center grow whitespace-nowrap my-auto">
                     Prev. Twitter
                   </div>
                 </span>
@@ -51,7 +51,7 @@ const Footer = () => {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/df5ff1adc20f457ffb651b278c47191a0f7b0a9c5a2f748901829ea7ec081774?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                     className="aspect-square object-contain object-center w-[25px] overflow-hidden shrink-0 max-w-full"
                   />
-                  <div className="text-white gradient-hover text-center text-2xl font-[450] leading-9 tracking-tight self-center my-auto">
+                  <div className="text-white  text-center text-2xl font-[450] leading-9 tracking-tight self-center my-auto">
                     Telegram
                   </div>
                 </span>

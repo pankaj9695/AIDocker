@@ -11,7 +11,11 @@ const headerVariants = {
 const Solution = () => {
   return (
     <section id="about" className="items-start self-stretch flex flex-col">
-      <div className="self-stretch leading-[44px] heading-gradient mt-16 sm:mt-32 text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
+      
+      <div className="self-stretch leading-[44px]  mt-16 sm:mt-32 text-white text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] tracking-tighter w-full  max-md:max-w-full">
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">PROBLEM AND SOLUTION</span>
+            </div>
         Overcoming Barriers in AI Development
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-[1.15rem] font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
@@ -33,7 +37,7 @@ const Solution = () => {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd2e6ba3c199d21f9168444b183817a51f263d09803a79064d70fe17fb4488d2?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                   className="aspect-square object-contain object-center w-7 overflow-hidden max-w-full"
                 />
-                <div className="self-stretch text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
+                <div className="self-stretch text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
                   Compute demand
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
@@ -53,7 +57,7 @@ const Solution = () => {
                 whileInView="animate"
                 className="justify-center items-stretch self-stretch bg-white bg-opacity-10 flex flex-col mt-5 p-4 sm:p-8 rounded-2xl max-md:px-5"
               >
-                <div className="text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap">
+                <div className="text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap">
                   Rentable GPUs
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
@@ -78,7 +82,7 @@ const Solution = () => {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/71e34a1ecdcd6d039456461bf04e569ad3a9223d6ce88272931d9ed4055d49f3?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                   className="aspect-square object-contain object-center w-7 overflow-hidden max-w-full"
                 />
-                <div className="self-stretch text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
+                <div className="self-stretch text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
                   Data accessibility
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
@@ -98,7 +102,7 @@ const Solution = () => {
                 whileInView="animate"
                 className="justify-center items-stretch self-stretch bg-white bg-opacity-10 flex flex-col   mt-5 p-4 sm:p-8 rounded-2xl max-md:px-5"
               >
-                <div className="text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap">
+                <div className="text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap">
                   Data Marketplace
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">
@@ -123,7 +127,7 @@ const Solution = () => {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/86339b65c209189f04d536906b263bc2d59abb341e0dcae8bf9874ab7ce7b196?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
                   className="aspect-square object-contain object-center w-7 overflow-hidden max-w-full"
                 />
-                <div className="self-stretch text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
+                <div className="self-stretch text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap mt-1.5">
                   Centralization
                 </div>
                 <div className="self-stretch text-white text-opacity-70 text-base font-[450] leading-6 tracking-normal mt-1.5">
@@ -143,7 +147,7 @@ const Solution = () => {
                 whileInView="animate"
                 className="justify-center items-stretch self-stretch bg-white bg-opacity-10 flex flex-col mt-5 p-4 sm:p-8 rounded-2xl max-md:px-5"
               >
-                <div className="text-white text-2xl font-bold leading-8 tracking-tighter whitespace-nowrap">
+                <div className="text-white text-2xl font-semibold leading-8 tracking-tighter whitespace-nowrap">
                   Decentralization
                 </div>
                 <div className="text-white text-opacity-50 text-base font-[450] leading-6 tracking-normal mt-1.5">

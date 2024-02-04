@@ -18,7 +18,8 @@ const Header = () => {
         animate="animate"
         className="header hidden justify-center items-center overflow-x-auto bg-white bg-opacity-0 sm:flex flex-col px-16 py-10 max-md:px-5"
       >
-        <section className="header justify-between items-stretch shadow-sm bg-[#232323] flex w-[657px] max-w-full gap-5 px-5 py-3.5 rounded-[48px] max-md:flex-wrap">
+        <section className="header  items-stretch shadow-sm bg-[#232323] flex w-[657px] max-w-full px-5 py-3.5 rounded-[48px] max-md:flex-wrap gap-[4rem]" >
+          <div>
           <span className="items-stretch flex justify-between gap-2.5">
             <img
               loading="lazy"
@@ -31,7 +32,9 @@ const Header = () => {
               AiDocker
             </div> */}
           </span>
-          <span className="items-stretch flex gap-5 p-2.5 self-start">
+          </div>
+          <div>
+          <span className="items-stretch flex gap-5 p-2.5 self-start " >
             <a
               href="/#header"
               className="text-white text-sm font-[450] leading-5 grow whitespace-nowrap"
@@ -61,7 +64,8 @@ const Header = () => {
               Team
             </a>
           </span>
-          <div className="center-box me-12">
+          </div>
+          <div className="flex">
             <div className="animated-border-box-glow"></div>
             <button
               className="animated-border-box text-neutral-900 text-xs font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"

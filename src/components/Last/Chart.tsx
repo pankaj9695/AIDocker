@@ -26,7 +26,11 @@ const Chart = () => {
 
   return (
     <span className="justify-center items-stretch self-stretch flex mt-6 sm:mt-32 flex-col">
-      <div className="text-white text-center  heading-gradient text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter w-full mt-1.5 max-md:max-w-full">
+      
+      <div className="text-white text-center   text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter w-full mt-1.5 max-md:max-w-full">
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+              <span className="heading-gradient ">Analytics</span>
+            </div>
         Unprecedented Surge in AI Hardware Demand
       </div>
       <div className="self-stretch text-white text-opacity-70 text-center text-[1.15rem] font-[450] max-w-[75%] sm:w-full mx-auto leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
