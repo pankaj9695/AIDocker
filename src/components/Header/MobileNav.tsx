@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MobileNav = ({
@@ -63,12 +64,13 @@ const MobileNav = ({
         </a>
       </nav>
       <div>
-        <button
+        <Link
+          href="/join"
           className="text-neutral-900 block text-base  font-medium leading-5 tracking-normal justify-center items-stretch shadow-sm bg-white self-center w-[247px] max-w-full mt-80 mb-3.5 px-3 py-2.5 rounded-[30px]"
           aria-label="Join Whitelist"
         >
           Join Whitelist
-        </button>
+        </Link>
       </div>
     </header>
   );

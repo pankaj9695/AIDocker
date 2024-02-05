@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const textVariants = {
   initial: {
@@ -103,12 +104,13 @@ const Hero = () => {
               </a> */}
               <div>
                 <div className="animated-border-box-glow z-10 "></div>
-                <button
+                <Link
+                  href="/join"
                   className="animated-border-box mt-5 px-4 py-3.5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
                   aria-label="Join Whitelist"
                 >
                   Join Whitelist
-                </button>
+                </Link>
               </div>
             </motion.div>
           </div>
