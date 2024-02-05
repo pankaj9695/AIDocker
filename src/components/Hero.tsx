@@ -60,10 +60,10 @@ const Hero = () => {
             >
               <motion.h1
                 variants={textVariants}
-                className="text-white text-opacity-90 text-6xl font-bold leading-[81px] tracking-tighter bg-clip-text self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-10"
+                className="text-white text-opacity-90 text-6xl font-[700] leading-[81px] tracking-tighter bg-clip-text self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-10"
               >
-                <span className="font-medium  ">Empowering </span>
-                <span className="font-medium  ">to Build decentralized </span>
+                <span className="  ">Empowering </span>
+                <span className="  ">to Build decentralized </span>
                 {/* <motion.span
                   variants={textVariants}
                   className="font-medium text-gradient leading-[72.4020767211914px]"
@@ -81,7 +81,7 @@ const Hero = () => {
                       animate={{ y: "0%" }}
                       exit={{ y: "100%" }}
                       transition={{ duration: 0.5 }}
-                      className="font-medium text-gradient leading-[50.4020767211914px] sm:leading-[75.4020767211914px]"
+                      className=" text-gradient leading-[50.4020767211914px] sm:leading-[75.4020767211914px]"
                     >
                       {words[current]}
                     </motion.div>
@@ -90,7 +90,7 @@ const Hero = () => {
               </motion.h1>
               <motion.p
                 variants={textVariants}
-                className="self-stretch text-white text-opacity-70 text-[1.15rem] font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tight mt-5 max-md:max-w-full"
+                className="self-stretch text-white text-opacity-70 text-[1rem] font-[200] sm:leading-8 leading-6 tracking-normal sm:tracking-tight mt-5 max-md:max-w-full"
               >
                 From data-driven enthusiasts to seasoned developers, AiDocker is
                 the go-to destination for creating, training, and deploying AI
@@ -103,10 +103,10 @@ const Hero = () => {
                 Join Whitelist
               </a> */}
               <div>
-                <div className="animated-border-box-glow z-10 "></div>
+                <div className="animated-border-box-glow text-center z-10 "></div>
                 <Link
                   href="/join"
-                  className="animated-border-box mt-5 px-4 py-3.5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
+                  className="animated-border-box mt-5 sm:px-4 px-8 py-3.5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
                   aria-label="Join Whitelist"
                 >
                   Join Whitelist
@@ -114,7 +114,7 @@ const Hero = () => {
               </div>
             </motion.div>
           </div>
-          <div className="flex flex-col mt-20 sm:mt-0 items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="flex flex-col mt-20 -mx-20 sm:mt-0 items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
             {/* <motion.img
               variants={imageVariants}
               initial="initial"
