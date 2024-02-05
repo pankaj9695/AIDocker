@@ -17,10 +17,10 @@ const Header = () => {
         variants={headerVariants}
         initial="initial"
         animate="animate"
-        className="header hidden justify-center items-center overflow-x-auto bg-white bg-opacity-0 sm:flex flex-col px-16 py-10 max-md:px-5"
+        className="header relative hidden justify-center items-center overflow-x-auto bg-white bg-opacity-0 sm:flex flex-col px-16 py-10 max-md:px-5"
       >
         <section className="header  items-stretch shadow-sm bg-[#232323] flex w-[657px] max-w-full px-5 py-3.5 rounded-[48px] max-md:flex-wrap gap-[4rem]">
-          <div>
+          <Link href={"/"}>
             <span className="items-stretch flex justify-between gap-2.5">
               <img
                 loading="lazy"
@@ -33,7 +33,7 @@ const Header = () => {
               AiDocker
             </div> */}
             </span>
-          </div>
+          </Link>
           <div>
             <span className="items-stretch flex gap-5 p-2.5 self-start ">
               <a
@@ -64,13 +64,20 @@ const Header = () => {
               >
                 Team
               </a>
+              <a
+                href="/#faq"
+                className="text-white text-sm font-[450] leading-5 grow whitespace-nowrap"
+                aria-label="Team"
+              >
+                Faqs
+              </a>
             </span>
           </div>
           <div className="flex">
-            <div className="animated-border-box-glow"></div>
+            <div className=""></div>
             <Link
               href="/join"
-              className="animated-border-box text-neutral-900 text-xs font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
+              className="animated-border-box text-neutral-900 text-xs block font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
               aria-label="Join Whitelist"
             >
               Join Whitelist

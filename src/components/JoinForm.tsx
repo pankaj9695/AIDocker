@@ -49,7 +49,7 @@ const JoinForm = () => {
             value={form.twitter}
             onChange={handleChange}
             type="url"
-            placeholder="https://"
+            placeholder="@twitter"
             className="justify-center px-5 py-6 my-3 focus:outline-none text-base tracking-normal whitespace-nowrap rounded-2xl bg-white bg-opacity-10 font-[450] text-white text-opacity-50 max-md:max-w-full"
           ></input>
         </div>
@@ -70,14 +70,14 @@ const JoinForm = () => {
             name="discord"
             value={form.discord}
             onChange={handleChange}
-            placeholder="https://"
+            placeholder="@discord"
             type="url"
             className="justify-center px-5 py-6 my-3 text-base focus:outline-none tracking-normal whitespace-nowrap rounded-2xl bg-white bg-opacity-10 font-[450] text-white text-opacity-50 max-md:max-w-full"
           ></input>
         </div>
         <div className="flex flex-col">
           <label htmlFor="hardware">
-            Ready to power up? Share the specs of the hardware you've got
+            Ready to power up? Share the specs of the hardware you've got -
             processors, memory, storage?
           </label>
           <textarea

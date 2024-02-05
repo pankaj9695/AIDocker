@@ -11,7 +11,7 @@ const MobileNav = ({
   return (
     <header className="items-center overflow-y-hidden z-50 bg-[#232323]   flex max-w-full flex-col pb-12  absolute inset-0">
       <div className="justify-between items-stretch self-stretch flex w-full gap-5 p-5">
-        <div className="items-stretch flex justify-between gap-1.5">
+        <Link href={"/"} className="items-stretch flex justify-between gap-1.5">
           <img
             loading="lazy"
             src="/logosvg.svg"
@@ -21,7 +21,7 @@ const MobileNav = ({
           {/* <div className="text-white text-base font-bold leading-6 tracking-tight grow whitespace-nowrap">
             AiDocker
           </div> */}
-        </div>
+        </Link>
         <button onClick={() => setShowMenu(false)}>
           <img
             loading="lazy"
@@ -61,6 +61,13 @@ const MobileNav = ({
           className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6"
         >
           Team
+        </a>
+        <a
+          href="/#faq"
+          onClick={() => setShowMenu(false)}
+          className="text-white text-opacity-70 text-3xl font-bold leading-9 tracking-normal self-center mt-6"
+        >
+          Faqs
         </a>
       </nav>
       <div>
