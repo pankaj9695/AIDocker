@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Select from "@/components/Select";
 import { json } from "stream/consumers";
+import { toast } from "react-toastify";
 
 const JoinForm = () => {
   const [form, setForm] = useState({
@@ -21,7 +22,15 @@ const JoinForm = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     console.log(form);
-    alert(JSON.stringify(form, null, 2));
+
+    toast("Form submitted successfully! We will contact you soon.");
+    setForm({
+      task: "",
+      twitter: "",
+      email: "",
+      discord: "",
+      hardware: "",
+    });
   };
   return (
     <form className="flex px-4 flex-col justify-center self-stretch text-base text-white font-[450]">
