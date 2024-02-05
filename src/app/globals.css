@@ -265,3 +265,44 @@ body {
 
   backdrop-filter: blur(15px);
 }
+
+
+/* styles/globals.css */
+
+@font-face {
+  font-family: 'FBlack';
+  src: url('/fonts/CircularStd-Black.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'FBold';
+  src: url('/fonts/CircularStd-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FBook';
+  src: url('/fonts/CircularStd-Book.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'FBMed';
+  src: url('/fonts/CircularStd-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'FMedi';
+  src: url('/fonts/CircularStd-MediumItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'FBooki';
+  src: url('/fonts/CircularStd-BookItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FBoldi';
+  src: url('/fonts/CircularStd-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FBlacki';
+  src: url('/fonts/CircularStd-BlackItalic.woff2') format('woff2');
+}
+
+/* Add other global styles here */
