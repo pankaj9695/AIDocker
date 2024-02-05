@@ -7,7 +7,9 @@ const page = () => {
     <div>
       <Header />
       <JoinForm />
-      <Footer />
+      <div className="mx-4 mb-8">
+        <Footer />
+      </div>
     </div>
   );
 };

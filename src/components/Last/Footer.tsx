@@ -128,9 +128,9 @@ const Footer = () => {
             Copyright © 2024 <span className="font-bold">AiDocker</span>.
           </div>
           <span className="items-stretch flex justify-between gap-5">
-            <div className="text-white text-xs font-medium leading-5 tracking-normal grow whitespace-nowrap">
+            {/* <div className="text-white text-xs font-medium leading-5 tracking-normal grow whitespace-nowrap">
               Media Kit
-            </div>
+            </div> */}
             <div className="text-white text-xs font-medium leading-5 tracking-normal">
               Terms of service
             </div>
