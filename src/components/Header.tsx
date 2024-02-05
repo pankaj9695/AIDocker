@@ -73,16 +73,16 @@ const Header = () => {
               </a>
             </span>
           </div>
-          <div className="flex">
+          <Link
+            href="/join"
+            className="bg-white text-neutral-900 text-xs block font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
+            aria-label="Join Whitelist"
+          >
+            Join Whitelist
+          </Link>
+          {/* <div className="flex">
             <div className=""></div>
-            <Link
-              href="/join"
-              className="animated-border-box text-neutral-900 text-xs block font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
-              aria-label="Join Whitelist"
-            >
-              Join Whitelist
-            </Link>
-          </div>
+          </div> */}
         </section>
       </motion.header>
       <MobileHeader />

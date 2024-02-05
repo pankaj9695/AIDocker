@@ -15,8 +15,8 @@ const Opportunity = () => {
       whileInView={"animate"}
       className=" flex flex-col items-baseline justify-between shadow-sm bg-white bg-opacity-10  backdrop-blur-md sm:flex-col px-16 sm:py-12 py-6 rounded-3xl max-md:px-5"
     >
-      <div className="text-xs font-medium text-center sm:text-start leading-4 tracking-widest uppercase mt-3.5 max-md:max-w-full">
-        <span className="heading-gradient ">Opportunity</span>
+      <div className="text-xs w-full font-medium sm:text-start text-center leading-4 tracking-widest uppercase mt-3.5 max-md:max-w-full">
+        <span className="heading-gradient  text-center">Opportunity</span>
       </div>
 
       <div className="my-3.5 max-md:max-w-full">
