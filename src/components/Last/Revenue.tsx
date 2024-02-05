@@ -15,15 +15,14 @@ const Revenue = () => {
 
     // </div>
     <span className="items-start flex flex-col">
-      
       <div className="self-stretch  text-white mb-1 text-center text-3xl sm:text-4xl font-bold sm:leading-[56px] leading-10 tracking-tighter mt-1.5 max-md:max-w-full">
-      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
-              <span className="heading-gradient ">Architecture</span>
-            </div>
+        <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+          <span className="heading-gradient ">Architecture</span>
+        </div>
         AiDocker's Ecosystem: A Symphony of Features
       </div>
 
-      <div className="self-stretch text-white text-opacity-70 text-center text-[1.15rem] font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="self-stretch text-white text-opacity-70 text-center text-[1rem] font-[200] sm:text-[1.15rem] sm:font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         Our platform is rich with features that enhance your AI development
       </div>
       <motion.div

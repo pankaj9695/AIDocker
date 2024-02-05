@@ -19,10 +19,10 @@ const Opportunity = () => {
         <span className="heading-gradient  text-center">Opportunity</span>
       </div>
 
-      <div className="my-3.5 mt-0 max-md:max-w-full">
-        <div className="gap-5 flex  items-baseline max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex  flex-col items-stretch  w-6/12  max-md:w-full max-md:ml-0">
-            <h1 className="text-white w-[80%] text-2xl sm:text-4xl text-center sm:text-start font-medium leading-8 sm:leading-[52px] tracking-tighter max-md:max-w-full max-md:mt-5 mt-5">
+      <div className="my-3.5 mt-0 max-md:max-w-full text-center">
+        <div className="gap-5 flex  items-baseline max-md:flex-col text-center  max-md:items-stretch max-md:gap-0">
+          <div className="flex  flex-col items-stretch justify-center w-6/12 text-center  max-md:w-full max-md:ml-0 -mt-4 sm:mt-0 ">
+            <h1 className="text-white -mt-2  w-full sm:w-[80%] text-3xl sm:text-4xl text-center sm:text-start font-medium leading-[40px] sm:leading-[52px] tracking-tighter max-md:max-w-full max-md:mt-5 sm:mt-5">
               <span className="">
                 Harnessing the Power of GPUs and Data for AI Breakthroughs
               </span>
@@ -30,9 +30,9 @@ const Opportunity = () => {
           </div>
           <div
             // style={{ marginTop: "-100px" }}
-            className="flex flex-col  items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+            className="flex flex-col  items-stretch w-6/12 ml-5 mt-4 sm:mt-0 max-md:w-full max-md:ml-0"
           >
-            <p className="text-white text-opacity-70 text-[1.15rem]  sm:leading-8  leading-6 tracking-normal sm:tracking-tight text-center sm:text-start font-[450]  my-auto max-md:max-w-full sm:mt-0">
+            <p className="text-white text-opacity-70  text-[1rem] sm:text-[1.15rem]  sm:leading-8  leading-6 tracking-normal sm:tracking-tight text-center sm:text-start font-[200] sm:font-[450]  my-auto max-md:max-w-full sm:mt-0">
               {/* In the world of AI, the synergy of computational power and data is
               pivotal. GPUs stand as the backbone, providing the necessary
               horsepower for complex computations, while diverse datasets act as

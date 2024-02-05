@@ -106,7 +106,7 @@ const Hero = () => {
                 <div className="animated-border-box-glow text-center z-10 "></div>
                 <Link
                   href="/join"
-                  className="animated-border-box mt-5 sm:px-4 px-8 py-3.5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
+                  className="animated-border-box mt-5 sm:px-4 !px-10 py-5 text-neutral-900 text-base font-medium tracking-tight whitespace-nowrap "
                   aria-label="Join Whitelist"
                 >
                   Join Whitelist

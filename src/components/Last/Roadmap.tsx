@@ -129,7 +129,7 @@ const Roadmap = () => {
         </div>
         Mapping the Future of AiDocker
       </div>
-      <div className="text-white text-opacity-70 text-center text-[1.15rem] sm:text-xl leading-6 sm:leading-8 font-[450]  tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="text-white text-opacity-70 text-center text-[1rem] font-[200] sm:text-[1.15rem] sm:font-[450] sm:text-xl leading-6 sm:leading-8  tracking-tighter w-full mt-1 max-md:max-w-full">
         Our roadmap is a testament to our commitment to growth and innovation.
       </div>
       {/* <img

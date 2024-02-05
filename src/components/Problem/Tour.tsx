@@ -51,7 +51,7 @@ const Tour = () => {
               The Annotation Tool For Top-quality Training Data
             </div>
 
-            <div className="text-white text-opacity-70 sm:text-xl text-[1.15rem] sm:leading-8 leading-6 tracking-normal sm:tracking-tight font-[450] text-center sm:text-start mt-6 max-md:max-w-full">
+            <div className="text-white text-opacity-70 sm:text-xl text-[1rem] font-[200] sm:text-[1.15rem] sm:font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tight text-center sm:text-start mt-6 max-md:max-w-full">
               At AiDocker, our approach to AI model development is meticulously
               crafted. Following the research and development of Large Language
               Models (LLMs) and their training, we embark on a critical phase:

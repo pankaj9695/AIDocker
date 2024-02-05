@@ -40,9 +40,9 @@ const Earning = () => {
       {/* <div className="self-stretch text-white text-center heading-gradient text-4xl font-bold leading-[56px] tracking-tighter w-full mt-1.5 max-md:max-w-full">
         Monetize Your AI Innovations and Contributions
       </div> */}
-                  <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
-              <span className="heading-gradient ">Revenue Stream</span>
-            </div>
+      <div className="text-xs  font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+        <span className="heading-gradient ">Revenue Stream</span>
+      </div>
       <div className="text-white  font-bold text-3xl sm:text-4xl text-center sm:text-start sm:leading-[52px] tracking-tighter mt-2 pb-1 sm:mt-3.5 max-md:max-w-full">
         Monetize Your AI Innovations and Contributions
       </div>
@@ -50,7 +50,7 @@ const Earning = () => {
         AI Enthusiasts can earn revenue, making AiDocker a mutually beneficial
         ecosystem.
       </div> */}
-      <div className="self-stretch text-white text-opacity-70 text-center text-[1.15rem] font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
+      <div className="self-stretch text-white text-opacity-70 text-center text-[1rem] font-[200] sm:text-[1.15rem] sm:font-[450]  leading-6 sm:leading-8 tracking-tighter w-full mt-1 max-md:max-w-full">
         AI Enthusiasts can earn revenue, making AiDocker a mutually beneficial
       </div>
 

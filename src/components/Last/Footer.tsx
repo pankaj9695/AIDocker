@@ -16,7 +16,7 @@ const Footer = () => {
                     aria-label="Logo"
                   />
                 </span>
-                <div className="text-white text-opacity-70 text-[1.15rem] sm:text-xl font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tighter self-stretch mt-5 max-md:max-w-full">
+                <div className="text-white text-opacity-70  sm:text-xl text-[1rem] font-[200] sm:text-[1.15rem] sm:font-[450] sm:leading-8 leading-6 tracking-normal sm:tracking-tighter self-stretch mt-5 max-md:max-w-full">
                   To get started, sign up on our platform. You'll gain access to
                   our resources, including datasets and GPU power, and can begin
                   developing and deploying your AI models.

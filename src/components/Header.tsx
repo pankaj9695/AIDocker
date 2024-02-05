@@ -21,7 +21,7 @@ const Header = () => {
       >
         <section className="header  items-stretch shadow-sm bg-[#232323] flex w-[657px] max-w-full px-5 py-3.5 rounded-[48px] max-md:flex-wrap gap-[4rem]">
           <Link href={"/"}>
-            <span className="items-stretch flex justify-between !mt-[2px] gap-2.5">
+            <span className="items-stretch flex justify-between !mt-[3.5px] gap-2.5">
               <img
                 loading="lazy"
                 src="/logosvg.svg"
@@ -75,7 +75,7 @@ const Header = () => {
           </div>
           <Link
             href="/join"
-            className="bg-white text-neutral-900 text-xs block font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-3 py-2.5 rounded-[30px]"
+            className="bg-white text-neutral-900 text-xs block font-medium leading-4 tracking-normal whitespace-nowrap justify-center items-stretch shadow-sm  self-center my-auto px-4 py-3.5 rounded-[30px]"
             aria-label="Join Whitelist"
           >
             Join Whitelist
