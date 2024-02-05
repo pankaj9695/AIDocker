@@ -25,16 +25,12 @@ const JoinForm = () => {
       toast.error("Please select a task");
       return;
     }
-    if (!form.twitter || !form.twitter.includes("twitter")) {
-      toast.error("please enter a valid twitter url");
-      return;
-    }
     if (!form.email || !form.email.includes("@")) {
-      toast.error("please a valid email address");
+      toast.error("Please enter a valid email");
       return;
     }
-    if (!form.discord || !form.discord.includes("discord")) {
-      toast.error("please enter a valid discord url");
+    if (!form.twitter && !form.discord) {
+      toast.error("Please enter at least one social field");
       return;
     }
 
@@ -58,15 +54,14 @@ const JoinForm = () => {
       </header>
       <div className="mt-1 w-full tracking-tighter leading-7 text-center text-white text-opacity-70 max-md:max-w-full">
         Secure your spot! Fill in your details below, and stay tuned, we'll
-        contact
-        <br /> you with an early bird access to our network in the near future.
+        contact you with an early bird access to our network in the near future.
       </div>{" "}
       <div className="self-center mt-8 mb-8 tracking-tighter text-center leading-[160%] text-white text-opacity-70 max-md:max-w-full">
         Kindly fill out at least one of the contact fields provided below:
       </div>{" "}
       <div className="flex flex-col justify-center self-center px-12 py-12 mt-5 max-w-full text-lg font-bold tracking-tighter leading-6 rounded-3xl border-2 border-solid backdrop-blur-[6px] bg-white bg-opacity-10 border-white border-opacity-0 w-[700px] max-md:px-5">
         <div>
-          <label htmlFor="task">Select Task</label>
+          <label htmlFor="task">Select Task*</label>
           <Select setForm={setForm} />
         </div>
         <div className="flex flex-col">
@@ -105,7 +100,7 @@ const JoinForm = () => {
         <div className="flex flex-col">
           <label htmlFor="hardware">
             Ready to power up? Share the specs of the hardware you've got -
-            processors, memory, storage?
+            processors, memory, storage?*
           </label>
           <textarea
             value={form.hardware}
