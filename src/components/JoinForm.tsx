@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Select from "@/components/Select";
-import { json } from "stream/consumers";
 import { toast } from "react-toastify";
 
 const JoinForm = () => {
@@ -19,11 +18,30 @@ const JoinForm = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: any) => {
+  const onSubmit = (e: any) => {
     e.preventDefault();
     console.log(form);
+    if (!form.task) {
+      toast.error("Please select a task");
+      return;
+    }
+    if (!form.twitter || !form.twitter.includes("twitter")) {
+      toast.error("please enter a valid twitter url");
+      return;
+    }
+    if (!form.email || !form.email.includes("@")) {
+      toast.error("please a valid email address");
+      return;
+    }
+    if (!form.discord || !form.discord.includes("discord")) {
+      toast.error("please enter a valid discord url");
+      return;
+    }
 
-    toast("Form submitted successfully! We will contact you soon.");
+    if (!form.hardware) {
+      toast.error("please enter your hardware specs");
+      return;
+    }
     setForm({
       task: "",
       twitter: "",
@@ -54,10 +72,10 @@ const JoinForm = () => {
         <div className="flex flex-col">
           <label htmlFor="twitter">Twitter</label>
           <input
-            name="twitter"
             value={form.twitter}
             onChange={handleChange}
             type="url"
+            name="twitter"
             placeholder="@twitter"
             className="justify-center sm:px-5 sm:py-6 px-2 py-2 my-3 focus:outline-none text-base tracking-normal whitespace-nowrap rounded-2xl bg-white bg-opacity-10 font-[450] text-white text-opacity-50 max-md:max-w-full"
           ></input>
@@ -65,22 +83,22 @@ const JoinForm = () => {
         <div className="flex flex-col">
           <label htmlFor="email">Email</label>
           <input
-            name="email"
+            type="email"
             value={form.email}
             onChange={handleChange}
+            name="email"
             placeholder="@gmail.com"
-            type="email"
             className="justify-center sm:px-5 sm:py-6 px-2 py-2 my-3 focus:outline-none text-base tracking-normal whitespace-nowrap rounded-2xl bg-white bg-opacity-10 font-[450] text-white text-opacity-50 max-md:max-w-full"
-          ></input>{" "}
+          ></input>
         </div>
         <div className="flex flex-col">
           <label htmlFor="discord">Discord</label>
           <input
-            name="discord"
+            type="url"
             value={form.discord}
             onChange={handleChange}
             placeholder="@discord"
-            type="url"
+            name="discord"
             className="justify-center sm:px-5 sm:py-6 px-2 py-2 my-3 text-base focus:outline-none tracking-normal whitespace-nowrap rounded-2xl bg-white bg-opacity-10 font-[450] text-white text-opacity-50 max-md:max-w-full"
           ></input>
         </div>
@@ -90,17 +108,17 @@ const JoinForm = () => {
             processors, memory, storage?
           </label>
           <textarea
-            name="hardware"
             value={form.hardware}
             onChange={handleChange}
             placeholder="Type here"
+            name="hardware"
             className="shrink-0 my-3 sm:px-5 sm:py-6 px-2 py-2 focus:outline-none rounded-2xl bg-white text-white text-opacity-50 bg-opacity-10 h-[135px] max-md:max-w-full"
           />
         </div>
         <button
           className="justify-center self-center font-[450] px-7 py-3 !mt-5 sm:!mt-10 tracking-normal whitespace-nowrap bg-white shadow-sm leading-[120%] rounded-[30px] text-neutral-900 max-md:px-5 max-md:mt-10"
           type="submit"
-          onClick={handleSubmit}
+          onClick={onSubmit}
         >
           Submit
         </button>

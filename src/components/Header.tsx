@@ -21,11 +21,11 @@ const Header = () => {
       >
         <section className="header  items-stretch shadow-sm bg-[#232323] flex w-[657px] max-w-full px-5 py-3.5 rounded-[48px] max-md:flex-wrap gap-[4rem]">
           <Link href={"/"}>
-            <span className="items-stretch flex justify-between gap-2.5">
+            <span className="items-stretch flex justify-between !mt-[2px] gap-2.5">
               <img
                 loading="lazy"
                 src="/logosvg.svg"
-                className="aspect-w-16 aspect-h-9 h-9 ms-0"
+                className="aspect-w-16 aspect-h-9 h-9 !m-0"
                 aria-label="Logo"
               />
 

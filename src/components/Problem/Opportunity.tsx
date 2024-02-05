@@ -19,10 +19,10 @@ const Opportunity = () => {
         <span className="heading-gradient  text-center">Opportunity</span>
       </div>
 
-      <div className="my-3.5 max-md:max-w-full">
+      <div className="my-3.5 mt-0 max-md:max-w-full">
         <div className="gap-5 flex  items-baseline max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex  flex-col items-stretch  w-6/12  max-md:w-full max-md:ml-0">
-            <h1 className="text-white w-[80%] text-2xl sm:text-4xl text-center sm:text-start font-medium leading-8 sm:leading-[52px] tracking-tighter max-md:max-w-full max-md:mt-5 mt-10">
+            <h1 className="text-white w-[80%] text-2xl sm:text-4xl text-center sm:text-start font-medium leading-8 sm:leading-[52px] tracking-tighter max-md:max-w-full max-md:mt-5 mt-5">
               <span className="">
                 Harnessing the Power of GPUs and Data for AI Breakthroughs
               </span>

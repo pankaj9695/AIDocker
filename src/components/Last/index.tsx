@@ -16,7 +16,7 @@ const Last = () => {
         <Chart />
         <Roadmap />
         <Team />
-        <Partnership />
+        {/* <Partnership /> */}
         <Faq />
         {/* <Faq2 /> */}
         <Footer />

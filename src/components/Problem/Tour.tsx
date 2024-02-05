@@ -44,7 +44,7 @@ const Tour = () => {
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div className="flex flex-col items-stretch w-[63%] max-md:w-full max-md:ml-0">
           <span className="justify-center items-stretch self-stretch flex flex-col my-auto w-full sm:w-[75%] max-md:mt-10">
-            <div className="text-xs  w-full text-center font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
+            <div className="text-xs  w-full text-center sm:text-left font-medium leading-4 tracking-widest uppercase max-md:max-w-full">
               <span className="heading-gradient ">FineTune</span>
             </div>
             <div className="text-white  font-bold text-3xl sm:text-4xl text-center sm:text-start sm:leading-[52px] tracking-tighter mt-2 pb-1 sm:mt-3.5 max-md:max-w-full">
