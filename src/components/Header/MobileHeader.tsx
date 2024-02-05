@@ -7,7 +7,7 @@ const MobileHeader = () => {
   return (
     <div className="sm:hidden p-2">
       <div className="justify-between bg-[#232323] rounded-[48px] items-stretch flex max-w-full gap-5 p-3 ">
-        <Link href={""} className="items-stretch flex justify-between gap-1.5">
+        <Link href={"/"} className="items-stretch flex justify-between gap-1.5">
           <img
             loading="lazy"
             src="/logosvg.svg"
