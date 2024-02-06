@@ -66,7 +66,7 @@ const Team = () => {
               <Image
                 height={254}
                 width={285}
-                alt="Xinthi"
+                alt="Ashok"
                 loading="lazy"
                 src="/xinthi.png"
                 className=" object-contain object-center w-full overflow-hidden"
@@ -76,7 +76,7 @@ const Team = () => {
                   Xinthi
                 </div>
                 <div className="text-white text-opacity-60 text-base font-medium leading-6 tracking-normal whitespace-nowrap mt-1.5">
-                  CMO
+                  CMO <span style={{visibility:'hidden'}}>under</span>
                 </div>
               </span>
             </div>
