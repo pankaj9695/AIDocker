@@ -133,6 +133,7 @@ const Hero = () => {
               <div className="hero-background">
                 <video autoPlay loop muted className="hero-video">
                   <source src="/earth.mp4" type="video/mp4" />
+                  <source src="/earth.mov" type="video/mov" />
                   Your browser does not support the video tag.
                 </video>
                 <motion.img

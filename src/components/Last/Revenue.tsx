@@ -44,7 +44,8 @@ const Revenue = () => {
             muted
             loop
           >
-            <source src="/earth.mov" type="video/mp4" />
+            <source src="/archi.mp4" type="video/mp4" />
+            <source src="/archi.mov" type="video/mov" />
             Your browser does not support the video tag.
           </video>
         </div>

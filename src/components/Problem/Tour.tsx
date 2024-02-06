@@ -75,7 +75,8 @@ const Tour = () => {
               // autoPlay={play}
               muted
             >
-              <source src="/boxes_2.mp4" type="video/mp4" />
+              <source src="/Finetune.mp4" type="video/mp4" />
+              <source src="/Finetune.mov" type="video/mov" />
               Your browser does not support the video tag.
             </video>
           </motion.div>
